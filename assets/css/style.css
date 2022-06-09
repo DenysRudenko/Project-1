@@ -21,13 +21,25 @@ body {
     text-transform: uppercase;
     letter-spacing: 3px;
     text-align: center;
-    background-color: green;
+    background-color: black;
     width: 100%;
 }
 
 #navigation-bar li {
     list-style-type: none;
     display: inline-block;
+}
+
+#navigation-bar a {
+    color: white;
+    padding-left: 50px;
+    letter-spacing: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#navigation-bar a:hover {
+    color: #d2a200;
 }
 
 #logo {
