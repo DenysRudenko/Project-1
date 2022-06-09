@@ -32,7 +32,7 @@ body {
 
 #logo {
     text-transform: uppercase;
-    background-color: blue;
+    background-color: yellow;
 }
 
 header>a,
@@ -58,17 +58,23 @@ footer {
     text-align: center;
 }
 
-#social-network>li {
-    display: inline;
+#social-network i {
+    color: #A9A9A9;
+}
+
+#social-network i:hover {
+    color: #d2a200;
 }
 
 #social-network>li {
-    font-size: 300%;
-    color: grey;
+    font-size: 250%;
+    display: inline-block;
+    margin: 20px;
 }
 
 footer>p {
     color: white;
     text-align: center;
-    font-size: medium;
+    font-size: 15px;
+    letter-spacing: 5px;
 }
