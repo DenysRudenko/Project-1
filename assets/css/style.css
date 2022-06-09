@@ -1,6 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* Font style for body */
+
 body {
     background-color: none;
     font-family: 'Shadows Into Light', cursive;
+    font-weight: 300;
+}
+
+/* Navigation and logo */
+
+#navigation-bar {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    background-color: green;
+    width: 100%;
+}
+
+#navigation-bar li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+#logo {
+    text-transform: uppercase;
+    background-color: blue;
+}
+
+header>a,
+#navigation-bar a {
+    text-decoration: none;
+}
+
+/* Midle */
+
+#example {}
+
+/* Footer */
+
+footer {
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    height: 150px;
+}
+
+#social-network {
+    text-align: center;
+}
+
+#social-network>li {
+    display: inline;
+}
+
+#social-network>li {
+    font-size: 300%;
+    color: grey;
+}
+
+footer>p {
+    color: white;
+    text-align: center;
+    font-size: medium;
 }
