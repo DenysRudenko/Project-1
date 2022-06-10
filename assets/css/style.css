@@ -30,7 +30,7 @@ body {
 }
 
 #navigation-bar a {
-    color: white;
+    color: #d2a200;
     padding-left: 50px;
     letter-spacing: 8px;
     font-size: 30px;
@@ -39,7 +39,7 @@ body {
 }
 
 #navigation-bar a:hover {
-    color: #d2a200;
+    color: #b68f0d;
 }
 
 #logo {
@@ -50,6 +50,19 @@ body {
 header>a,
 #navigation-bar a {
     text-decoration: none;
+}
+
+#background {
+    max-height: 700px;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#background-image {
+    max-height: 700px;
+    max-width: 100%;
+    background: url("../images/background/background.png")no-repeat center center;
 }
 
 /* Midle */
