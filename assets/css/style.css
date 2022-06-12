@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 
 * {
     margin: 0;
@@ -7,75 +6,97 @@
     border: none;
 }
 
+body {
+    font-family: 'Krona One', sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+}
+
+/* headings and logo */
+
+h1,
+h2 {
+    font-family: 'Krona One', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding-left: 10px;
+
+    /*  Color gradient for h1 */
+
+}
+
+h1,
+h2:hover {
+    background: -webkit-linear-gradient(#6d7a8b, #503b34);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
+#logo {
+    float: left;
+    font-size: 150%;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 80%;
+    letter-spacing: 4px;
+}
+
+#menu,
+#logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 30px;
+    padding-left: 60px
+}
+
+#menu a {
+    text-decoration: none;
+    color: #fdfdfd;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #fdfdfd;
+}
+
+.active {
+    border-bottom: 1px solid #fdfdfd;
+}
+
+/* hero image */
+
+#background-image {
+    height: 950px;
+    width: 100%;
+    background: url('../images/background/background.jpg') no-repeat center center;
+}
+
+
+
 /* Font style for body */
 
-body {
-    background-color: none;
-    font-family: 'Shadows Into Light', cursive;
-    font-weight: 300;
-}
+
 
 /* Navigation and logo */
 
-#navigation-bar {
-    background-color: black;
-    width: 100%;
-    height: 50px;
-    text-align: center;
-}
-
-#navigation-bar li {
-    list-style-type: none;
-    display: inline;
-}
-
-#navigation-bar a {
-    color: #d2a200;
-    padding-left: 50px;
-    letter-spacing: 8px;
-    font-size: 30px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-#navigation-bar a:hover {
-    color: #b68f0d;
-}
-
-#logo {
-    text-transform: uppercase;
-    background-color: yellow;
-}
-
-header>a,
-#navigation-bar a {
-    text-decoration: none;
-}
-
-#background {
-    max-height: 700px;
-    max-width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
-#background-image {
-    max-height: 700px;
-    max-width: 100%;
-    background: url("../images/background/background.png")no-repeat center center;
-}
 
 /* Midle */
-
-#example {}
 
 /* Footer */
 
 footer {
     bottom: 0;
     width: 100%;
-    position: fixed;
-    background-color: black;
+    position: ;
+    background: black;
     height: 150px;
 }
 
@@ -88,7 +109,7 @@ footer {
 }
 
 #social-network i:hover {
-    color: #d2a200;
+    color: #cda27a;
 }
 
 #social-network>li {
