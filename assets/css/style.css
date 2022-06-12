@@ -20,10 +20,10 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     padding-left: 10px;
-
-    /*  Color gradient for h1 */
-
+    color: #fdfdfd;
 }
+
+/*  Color gradient for h1 */
 
 h1,
 h2:hover {
@@ -71,21 +71,41 @@ h2:hover {
     border-bottom: 1px solid #fdfdfd;
 }
 
-/* hero image */
+/* tattoo artist image */
 
 #background-image {
     height: 950px;
     width: 100%;
     background: url('../images/background/background.jpg') no-repeat center center;
+
 }
 
+#appointment>a {
+    font-size: 130%;
+    font-family: 'Krona One', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    color: rgb(187, 161, 79);
+    font-weight: bold;
 
+    padding-top: 40x;
+    padding-left: 10px;
 
-/* Font style for body */
+    bottom: 30px;
+    right: 270px;
 
+    position: absolute;
+}
 
+/* Animation for appoinment */
 
-/* Navigation and logo */
+#appointment>a:hover {
+    background: -webkit-linear-gradient(#bba14f, #f7ef8a, #d2ac47, #edc967);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 
 
 /* Midle */
@@ -109,7 +129,9 @@ footer {
 }
 
 #social-network i:hover {
-    color: #cda27a;
+    background: -webkit-linear-gradient(#bba14f, #f7ef8a, #d2ac47, #edc967);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 #social-network>li {
