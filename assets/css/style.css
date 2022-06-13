@@ -41,6 +41,13 @@ body {
     color: #CFD8DC;
 }
 
+.england,
+.ukraine:hover {
+    background: -webkit-linear-gradient(#6d7a8b, #503b34);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 /* HAmburger */
 #menu__toggle {
     opacity: 0;
