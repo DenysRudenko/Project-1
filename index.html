@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A website for 'Kingdom Of Shadows' tattoo studio.">
-    <meta name="keywords" content="tattoo, tattoo studio Kyiv, kigdom of shadows, tattoo Kyiv, tattoo Ukraine">
+    <meta name="keywords" content="tattoo, tattoo studio Kyiv, kingdom of shadows, tattoo Kyiv, tattoo Ukraine">
     <meta name="author" content="DenysRudenko">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Kingdom Of Shadows | Tattoo Studio</title>
@@ -14,10 +14,14 @@
 
 <body>
     <header>
-        <a href="index.html">
-            <h1 class="active" id="logo">Tattoo Studio</h1>
-        </a>
-        <nav>
+
+
+
+        <!-- Navigation menu -->
+        <nav id="menu_background">
+            <a href="index.html">
+                <h1 class="active" id="logo">Tattoo Studio</h1>
+            </a>
             <ul id="menu">
                 <li>
                     <a target="_blank"
@@ -31,18 +35,43 @@
                         href="https://api.whatsapp.com/send?phone=380639424601&app=facebook&entry_point=page_cta&fbclid=IwAR0GiV0_53aF7Dl5pqmvWnHq8pn7kKHE2sQW-aXtf_7lyw0EPLzRZ3JZJts">What`sUp</a>
                 </li>
             </ul>
+
+            <!--Hamburger menu -->
+            <section>
+                <div class="hamburger-menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                        <span></span>
+                    </label>
+
+                    <ul class="menu__box">
+                        <li><a class="menu__item" href="index.html">Home</a></li>
+                        <li><a class="menu__item gallery" href="#">Gallery</a></li>
+                        <li><a class="menu__item" href="#">About us</a></li>
+                        <li><a class="menu__item" href="#">Contact us</a></li>
+                        <li><a class="menu__item" href="#">FAQ</a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Language list on navigation panel -->
+            <section>
+                <ul id="flags">
+                    <li><a class="ukraine" target="_blank" href="./assets/html/ua/home.html">UA</a>
+                    </li>
+                    <li><a class="england active" target="_blank" href="./index.html">UK</a>
+                    </li>
+                </ul>
+            </section>
         </nav>
+
+
+
+
+
     </header>
 
-    <section>
-        <ul id="flags">
-            <li><a class="ukraine" target="_blank" href="./assets/html/ua/home.html">UA</a>
-            </li>
-            <li><a class="england active" target="_blank" href="./index.html">UK</a>
-            </li>
-        </ul>
-    </section>
-
+    <!--Appointment at the home page and photo -->
     <section id="artist_bg">
         <div id="background-image"></div>
         <div id="appointment">
@@ -51,27 +80,31 @@
     </section>
 
     <section>
-        <div class="hamburger-menu">
-            <input id="menu__toggle" type="checkbox" />
-            <label class="menu__btn" for="menu__toggle">
-                <span></span>
-            </label>
+        <div id="middle_studio">
+            <h2 class="studio_name">Tatto Studio in Kyiv</h2>
+            <p class="studio_about"><span>Kingdom of Shadows</span> Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit. Ut eleifend ut
+                dolor et volutpat. Maecenas posuere vehicula urna, ac scelerisque mi rutrum sed. Vestibulum vehicula
+                lacinia libero, nec auctor urna. Nullam dapibus faucibus nisi et tempor. Proin pharetra, velit et tempus
+                lobortis, purus ipsum mattis justo, eget vulputate orci mauris eu urna. Phasellus ultrices, sem et
+                tincidunt posuere, risus tortor placerat purus, sodales suscipit lacus purus vel arcu. Etiam viverra leo
+                eu libero rhoncus, quis venenatis arcu pharetra. Proin vel tortor magna. Integer sed ligula justo.</p>
 
-            <ul class="menu__box">
-                <li><a class="menu__item" href="index.html">Home</a></li>
-                <li><a class="menu__item" href="#">Gallery</a></li>
-                <li><a class="menu__item" href="#">About us</a></li>
-                <li><a class="menu__item" href="#">Contact us</a></li>
-                <li><a class="menu__item" href="#">FAQ</a></li>
-            </ul>
+            <p class="studio_about"> Aenean maximus porttitor quam et gravida. Aenean vulputate luctus nunc, non
+                ullamcorper lectus
+                pretium
+                eu. Fusce sollicitudin laoreet mauris sed sodales. Integer porttitor mauris sollicitudin enim
+                convallis,
+                eget egestas sem maximus. Quisque sapien dui, laoreet et convallis at, sodales at lorem. Sed massa
+                erat,
+                elementum sit amet nisl sit amet, mattis scelerisque tortor. Sed pulvinar lorem fringilla pretium
+                mollis. Curabitur in malesuada dolor.</p>
         </div>
-    </section>
-    <section>
-        some info will be over here
 
 
     </section>
 
+    <!-- Footer with a social icons -->
     <footer>
         <ul id="social-network">
             <li>
