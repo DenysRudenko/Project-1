@@ -271,7 +271,7 @@ h1 {
     position: absolute;
 }
 
-/* Animation for appoinment */
+/* hover for appoinment */
 
 #appointment>a:hover {
     background: -webkit-linear-gradient(#bba14f, #f7ef8a, #d2ac47, #edc967);
@@ -284,27 +284,34 @@ h1 {
 #middle_studio {
     height: 645px;
     width: 100%;
-    background-color: black;
+    background-color: grey;
     border-top: 2px solid rgb(187, 161, 79, .6);
-}
-
-#middle_studio:hover {
-    border-top: 2px solid #edc967;
 }
 
 .hand_loc {
     float: right;
-    right: 100px;
-    top: 65px;
+    right: 150px;
+    top: 95px;
     position: relative;
+    background-color: #d2ac47;
 }
 
 .hand_img {
     max-width: 450px;
     max-height: 450px;
+    background-color: #edc967;
 }
 
-.studio_name {
+.studio_position {
+    position: relative;
+    width: 30%;
+    float: left;
+    top: 70px;
+    left: 270px;
+
+}
+
+.studio_position>h2 {
     background: -webkit-linear-gradient(#bba14f, #f7ef8a, #d2ac47, #edc967);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -313,10 +320,6 @@ h1 {
     font-weight: bold;
     text-transform: uppercase;
     font-size: 150%;
-
-    position: relative;
-    top: 70px;
-    left: 250px;
 
 }
 
@@ -330,6 +333,14 @@ h1 {
 
 .studio_about {
     color: white;
+    letter-spacing: 3px;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.studio_about span {
+    color: rgb(187, 161, 79);
 }
 
 /* Footer */
