@@ -284,7 +284,7 @@ h1 {
 #middle_studio {
     height: 645px;
     width: 100%;
-    background-color: grey;
+    background-color: black;
     border-top: 2px solid rgb(187, 161, 79, .6);
 }
 
@@ -293,13 +293,12 @@ h1 {
     right: 150px;
     top: 95px;
     position: relative;
-    background-color: #d2ac47;
+    height: fit-content;
 }
 
-.hand_img {
+.hand_loc img {
     max-width: 450px;
-    max-height: 450px;
-    background-color: #edc967;
+    height: 450px;
 }
 
 .studio_position {
@@ -335,12 +334,11 @@ h1 {
     color: white;
     letter-spacing: 3px;
     position: relative;
-    font-family: 'Times New Roman', Times, serif;
-
 }
 
 .studio_about span {
     color: rgb(187, 161, 79);
+    font-size: 20px;
 }
 
 /* Footer */
