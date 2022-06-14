@@ -284,7 +284,7 @@ h1 {
 #middle_studio {
     height: 645px;
     width: 100%;
-    background-color: black;
+    background-color: #161616;
     border-top: 2px solid rgb(187, 161, 79, .6);
 }
 
@@ -299,6 +299,7 @@ h1 {
 .hand_loc img {
     max-width: 450px;
     height: 450px;
+    opacity: .4;
 }
 
 .studio_position {
@@ -339,6 +340,26 @@ h1 {
 .studio_about span {
     color: rgb(187, 161, 79);
     font-size: 20px;
+}
+
+/* Testimonials */
+
+.testimonials {
+    width: 100%;
+    height: 645px;
+    background-color: black;
+    border-top: 2px solid rgb(187, 161, 79, .6);
+}
+
+.testimonials_text {
+    background: -webkit-linear-gradient(#bba14f, #f7ef8a, #d2ac47, #edc967);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    letter-spacing: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 150%;
 }
 
 /* Footer */
