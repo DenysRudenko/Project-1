@@ -189,25 +189,15 @@ body {
 
 /* headings and logo */
 
-h1,
-h2 {
+h1 {
     font-family: 'Krona One', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     padding-left: 10px;
-    color: #fdfdfd;
-}
-
-/*  Color gradient for h1 */
-
-h1,
-h2:hover {
     background: -webkit-linear-gradient(#6d7a8b, #503b34);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
 }
-
 
 #logo {
     float: left;
@@ -266,7 +256,6 @@ h2:hover {
 
 #appointment>a {
     font-size: 130%;
-    font-family: 'Krona One', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     text-decoration: none;
@@ -290,18 +279,53 @@ h2:hover {
     -webkit-text-fill-color: transparent;
 }
 
-
-
 /* Midle */
 
 #middle_studio {
-    height: 620px;
+    height: 645px;
     width: 100%;
-    background-color: darkgrey;
+    background-color: black;
+    border-top: 2px solid rgb(187, 161, 79, .6);
+}
+
+#middle_studio:hover {
+    border-top: 2px solid #edc967;
+}
+
+.hand_loc {
+    float: right;
+    right: 100px;
+    top: 65px;
+    position: relative;
+}
+
+.hand_img {
+    max-width: 450px;
+    max-height: 450px;
 }
 
 .studio_name {
-    color: #bba14f;
+    background: -webkit-linear-gradient(#bba14f, #f7ef8a, #d2ac47, #edc967);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    letter-spacing: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 150%;
+
+    position: relative;
+    top: 70px;
+    left: 250px;
+
+}
+
+.middle_text {
+    width: 50%;
+    top: 110px;
+    left: 70px;
+    position: relative;
+    float: left;
 }
 
 .studio_about {
