@@ -351,6 +351,12 @@ h1 {
     border-top: 2px solid rgb(187, 161, 79, .6);
 }
 
+.testimonials_loc {
+    position: relative;
+    top: 70px;
+    text-align: center;
+}
+
 .testimonials_text {
     background: -webkit-linear-gradient(#bba14f, #f7ef8a, #d2ac47, #edc967);
     -webkit-background-clip: text;
