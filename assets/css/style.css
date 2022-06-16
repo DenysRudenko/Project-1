@@ -251,8 +251,9 @@ h1 {
     height: 950px;
     width: 100%;
     background: url('../images/background/background.jpg') no-repeat center center;
-
 }
+
+
 
 #appointment>a {
     font-size: 130%;
@@ -492,4 +493,14 @@ footer>p {
     text-align: center;
     font-size: 15px;
     letter-spacing: 5px;
+}
+
+/* -----------------ABOUTS US FILE----------------- */
+
+/* tattoo leg image */
+
+#about-image {
+    height: 950px;
+    width: 100%;
+    background: url("../images/background/about-us.png") no-repeat center center;
 }
