@@ -354,13 +354,12 @@ h1 {
 
 .video_loc {
     float: left;
-    left: 150px;
-    top: 100px;
+    left: 50px;
+    top: 30px;
     position: relative;
-    height: fit-content;
 }
 
-.video_loc iframe {
+.video_loc video {
     max-width: 600px;
     height: 450px;
 }
@@ -480,13 +479,14 @@ basis of number of slides */
 
     /* Specify the animation with the
 duration and speed */
-    animation: slide 30s ease infinite;
+    animation: slide 60s ease-in-out infinite;
 }
 
 /* Set the background color
 of each of the slides */
 .slide:nth-child(1) {
     background: black;
+
 }
 
 .slide:nth-child(2) {
