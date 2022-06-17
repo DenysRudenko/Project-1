@@ -194,7 +194,7 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 4px;
     padding-left: 10px;
-    background: -webkit-linear-gradient(#6d7a8b, #503b34);
+    background: -webkit-linear-gradient(#85513a, #4674a5);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -241,9 +241,9 @@ h1 {
     border-bottom: 1px solid #fdfdfd;
 }
 
-.active {
+/* .active {
     border-bottom: 1px solid #fdfdfd;
-}
+} */
 
 /* tattoo artist image */
 
@@ -355,7 +355,7 @@ h1 {
 .video_loc {
     float: left;
     left: 150px;
-    top: 140px;
+    top: 100px;
     position: relative;
     height: fit-content;
 }
