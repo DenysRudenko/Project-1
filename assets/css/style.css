@@ -456,7 +456,7 @@ h1 {
 #slideshow {
     overflow: hidden;
     height: 450px;
-    width: 728px;
+    width: 1800px;
     margin: 0 auto;
     position: relative;
     top: 30px;
@@ -467,7 +467,7 @@ with a fixed width and height */
 .slide {
     float: left;
     height: 400px;
-    width: 728px;
+    width: 1800px;
     position: relative;
 }
 
@@ -476,7 +476,7 @@ with a fixed width and height */
 
     /* Calculate the total width on the
 basis of number of slides */
-    width: calc(728px * 3);
+    width: calc(1800px * 3);
 
     /* Specify the animation with the
 duration and speed */
@@ -508,11 +508,11 @@ for the slideshow */
     }
 
     40% {
-        margin-left: calc(-728px * 1);
+        margin-left: calc(-1800x * 1);
     }
 
     60% {
-        margin-left: calc(-728px * 2);
+        margin-left: calc(-1800px * 2);
     }
 
 
