@@ -512,7 +512,7 @@ for the slideshow */
     }
 
     60% {
-        margin-left: calc(-1800px * 2);
+        margin-left: calc(-1800px * 1);
     }
 
 
