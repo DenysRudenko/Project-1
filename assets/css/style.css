@@ -690,3 +690,20 @@ footer>p {
     color: rgb(187, 161, 79);
     font-size: 20px;
 }
+
+/*-------------------- Contact US -----------------*/
+
+/* tattoo leg image */
+
+#gallery-image {
+    height: 950px;
+    width: 100%;
+    background: url("../images/background/gallery.jpg") no-repeat center center;
+}
+
+#middle_gallery {
+    height: 1290px;
+    width: 100%;
+    background-color: black;
+    border-top: 2px solid rgb(187, 161, 79, .6);
+}
