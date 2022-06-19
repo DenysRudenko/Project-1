@@ -64,27 +64,75 @@
 
     <!--Backgroud image -->
     <div id="artist_bg">
-        <div id="gallery-image"></div>
+        <div id="contact-image"></div>
     </div>
 
-    <div>
-        <div id="middle_gallery">
-            <div class="gallery-loc">
-                <img class="gallery-images" src="./assets/images/gallery/flower2.jpg" alt="flower tattoo">
-                <img class="gallery-images" src="./assets/images/gallery/flower.jpg" alt="flower tattoo">
+    <section id="contact-form">
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="contact-form" target="_blank">
+            <!--title for the form-->
+            <div class="contact-heading">
+                <h2>Visit Our Studio Today!</h2>
+            </div>
+            <!--code for contact details and icons-->
+            <div class="contact-details">
+                <p class="contact-p">We can be contacted by telephone, email or in writing, please find the relevant
+                    information below.
+                </p>
+                <p class="contact-p">Alternatively you can send us an enquiry via the online enquiry form.</p>
 
-                <img class="gallery-images" src="./assets/images/gallery/bone.png" alt="bone tattoo">
-                <img class="gallery-images" src="./assets/images/gallery/ghost.jpg" alt="ghost tattoo">
+                <label class="contact-text" for="fname">Your Name(required)</label>
+                <input id="fname" name="full-name" class="contact-text" placeholder="Type your full name here"
+                    type="text" required>
 
-                <img class="gallery-images" src="./assets/images/gallery/braslet.png" alt="braslet tattoo">
-                <img class="gallery-images" src="./assets/images/gallery/woman.jpg" alt="woman tattoo">
+                <label class="contact-text" for="email">Your Email(required)</label>
+                <input type="email" id="email" name="email-address" class="contact-text"
+                    placeholder="Type your email address here" required>
 
-                <img class="gallery-images" src="./assets/images/gallery/lion.jpg" alt="lion tattoo">
-                <img class="gallery-images" src="./assets/images/gallery/mom.jpg" alt="mom tattoo">
+                <label class="contact-text" for="phone">Phone(required)</label>
+                <input id="phone" name="phone" class="contact-text" placeholder=" Type your telephone number here"
+                    type="tel" required>
+                <label class="contact-text" for="subject">Subject</label>
+                <input id="subject" name="subject" class="contact-text" placeholder="Type your telephone number here"
+                    type="name">
+            </div>
+            <!--feedback questionnaire using radio buttons-->
 
+            <div class="additional-remarks">
+                <h2>Your Message</h2>
+                <textarea name="comment" placeholder="Type your wishes here" rows="20" cols="92" required></textarea>
+            </div>
+            <input type="submit" class="button" value="Send Message">
+            <input type="reset" class="button" value="Reset">
+        </form>
+
+        <div class="map-details">
+            <div>
+                <h2>Find us</h2>
+            </div>
+
+            <div class="map_heading">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d20307.24961516443!2d30.4454964!3d50.4893973!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8204472e5fd93e3a!2sKingdom%20of%20Shadows!5e0!3m2!1sen!2sie!4v1655663009623!5m2!1sen!2sie"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="map_heading">
+                <h2><i class="fa-solid fa-map-pin"></i> Adress</h2>
+                <p>Kyrylivska St, 160б, Kyiv, Ukraine, 08073</p>
+            </div>
+
+            <div class="map_heading">
+                <h2><i class="fa-solid fa-phone"></i> Phone</h2>
+                <p>Phone: +0038(063)942-46-01</p>
+            </div>
+
+            <div class="map_heading">
+                <h2><i class="fa-solid fa-envelope"></i> Email</h2>
+                <p>Email: <a href="mailto:tattooartistgrafica228@gmail.com">tattooartistgrafica228@gmail.com</a></p>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- Footer with a social icons -->
     <footer>
