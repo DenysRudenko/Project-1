@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A website for 'Kingdom Of Shadows' tattoo studio.">
+    <meta name="keywords" content="tattoo, tattoo studio Kyiv, kingdom of shadows, tattoo Kyiv, tattoo Ukraine">
+    <meta name="author" content="DenysRudenko">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Kingdom Of Shadows | Tattoo Studio</title>
+</head>
+
+<body>
+    <header>
+        <!-- Navigation menu -->
+        <nav id="menu_background">
+            <a href="index.html">
+                <h1 class="active" id="logo">Tattoo Studio</h1>
+            </a>
+            <ul id="menu">
+                <li>
+                    <a target="_blank"
+                        href="https://instagram.com/kingdom_of_shadowsofficial?igshid=YmMyMTA2M2Y=">Instagram</a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.facebook.com/AlexsandrTattooArtist">Facebook</a>
+                </li>
+                <li>
+                    <a target="_blank"
+                        href="https://api.whatsapp.com/send?phone=380639424601&app=facebook&entry_point=page_cta&fbclid=IwAR0GiV0_53aF7Dl5pqmvWnHq8pn7kKHE2sQW-aXtf_7lyw0EPLzRZ3JZJts">What`sUp</a>
+                </li>
+            </ul>
+
+            <!--Hamburger menu -->
+            <div>
+                <div class="hamburger-menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                        <span></span>
+                    </label>
+
+                    <ul class="menu__box">
+                        <li><a class="menu__item" href="index.html">Home</a></li>
+                        <li><a class="menu__item gallery" href="gallery.html">Gallery</a></li>
+                        <li><a class="menu__item" href="./about-us.html">About us</a></li>
+                        <li><a class="menu__item" href="./contact-us.html">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Language list on navigation panel -->
+            <div>
+                <ul id="flags">
+                    <li><a class="ukraine" target="_blank" href="./assets/html/ua/home.html">UA</a>
+                    </li>
+                    <li><a class="england active_lang" target="_blank" href="./index.html">EN</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!--Backgroud image -->
+    <div id="artist_bg">
+        <div id="contact-image"></div>
+    </div>
+
+    <section id="contact-form">
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="contact-form" target="_blank">
+            <!--title for the form-->
+            <div class="contact-heading">
+                <h2>Visit Our Studio Today!</h2>
+            </div>
+            <!--code for contact details and icons-->
+            <div class="contact-details">
+                <p class="contact-p">We can be contacted by telephone, email or in writing, please find the relevant
+                    information below.
+                </p>
+                <p class="contact-p">Alternatively you can send us an enquiry via the online enquiry form.</p>
+
+                <label class="contact-text" for="fname">Your Name(required)</label>
+                <input id="fname" name="full-name" class="contact-text" placeholder="Type your full name here"
+                    type="text" required>
+
+                <label class="contact-text" for="email">Your Email(required)</label>
+                <input type="email" id="email" name="email-address" class="contact-text"
+                    placeholder="Type your email address here" required>
+
+                <label class="contact-text" for="phone">Phone(required)</label>
+                <input id="phone" name="phone" class="contact-text" placeholder=" Type your telephone number here"
+                    type="tel" required>
+                <label class="contact-text" for="subject">Subject</label>
+                <input id="subject" name="subject" class="contact-text" placeholder="Type your telephone number here"
+                    type="name">
+            </div>
+            <!--feedback questionnaire using radio buttons-->
+
+            <div class="additional-remarks">
+                <h2>Your Message</h2>
+                <textarea name="comment" placeholder="Type your wishes here" rows="20" cols="92" required></textarea>
+            </div>
+            <input type="submit" class="button" value="Send Message">
+            <input type="reset" class="button" value="Reset">
+        </form>
+
+        <div class="map-details">
+            <div>
+                <h2>Find us</h2>
+            </div>
+
+            <div class="map_heading">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d20307.24961516443!2d30.4454964!3d50.4893973!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8204472e5fd93e3a!2sKingdom%20of%20Shadows!5e0!3m2!1sen!2sie!4v1655663009623!5m2!1sen!2sie"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="map_heading">
+                <h2><i class="fa-solid fa-map-pin"></i> Adress</h2>
+                <p>Kyrylivska St, 160б, Kyiv, Ukraine, 08073</p>
+            </div>
+
+            <div class="map_heading">
+                <h2><i class="fa-solid fa-phone"></i> Phone</h2>
+                <p>Phone: +0038(063)942-46-01</p>
+            </div>
+
+            <div class="map_heading">
+                <h2><i class="fa-solid fa-envelope"></i> Email</h2>
+                <p>Email: <a href="mailto:tattooartistgrafica228@gmail.com">tattooartistgrafica228@gmail.com</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer with a social icons -->
+    <footer>
+        <ul id="social-network">
+            <li>
+                <a href="https://instagram.com/kingdom_of_shadowsofficial?igshid=YmMyMTA2M2Y="
+                    aria-label="Visit our Instagram page." rel="noopener" target="_blank"><i
+                        class="fa-brands fa-instagram-square"></i></a>
+            </li>
+
+            <li>
+                <a href="https://www.facebook.com/AlexsandrTattooArtist" target="_blank"
+                    aria-label="Visit our FaceBook page." rel="noopener"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+
+            <li>
+                <a href="https://api.whatsapp.com/send?phone=380639424601&app=facebook&entry_point=page_cta&fbclid=IwAR0GiV0_53aF7Dl5pqmvWnHq8pn7kKHE2sQW-aXtf_7lyw0EPLzRZ3JZJts"
+                    target="_blank" aria-label="Contact us via What`s up." rel="noopener"><i
+                        class="fa-brands fa-whatsapp-square"></i></a>
+            </li>
+        </ul>
+        <p>@2022. All rights reserved.</p>
+    </footer>
+
+    <!-- Script for FontAwesome -->
+    <script src="https://kit.fontawesome.com/4fe670e1ad.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

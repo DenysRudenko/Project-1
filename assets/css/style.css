@@ -691,7 +691,7 @@ footer>p {
     font-size: 20px;
 }
 
-/*-------------------- Contact US -----------------*/
+/*-------------------- Callery -----------------*/
 
 /* tattoo leg image */
 
@@ -717,4 +717,49 @@ footer>p {
 .gallery-loc {
     text-align: center;
     position: relative;
+}
+
+/*-------------------- Contact us -----------------*/
+
+#contact-image {
+    height: 950px;
+    width: 100%;
+    background: url("../images/background/contact.jpg") no-repeat center center;
+}
+
+#contact-form {
+    height: 950px;
+    width: 100%;
+    background-color: green;
+}
+
+.contact-form {
+    float: left;
+    margin: 20px 0px 10px 20px;
+    width: 40%;
+    padding-left: 200px;
+
+}
+
+.contact-details p {
+    padding-top: 5px;
+}
+
+.contact-text {
+    display: block;
+    padding: 10px 10px 10px 0px;
+}
+
+.contact-details input {
+    width: 100%;
+}
+
+.map-details {
+    float: right;
+    margin: 20px 20px 10px 0px;
+    padding-right: 200px;
+}
+
+.map_heading {
+    padding-top: 20px;
 }
