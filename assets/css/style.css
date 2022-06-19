@@ -702,8 +702,19 @@ footer>p {
 }
 
 #middle_gallery {
-    height: 1290px;
+    height: 100%;
     width: 100%;
     background-color: black;
     border-top: 2px solid rgb(187, 161, 79, .6);
+}
+
+.gallery-images {
+    width: 850px;
+    height: 750px;
+    padding: 15px 15px 15px 15px;
+}
+
+.gallery-loc {
+    text-align: center;
+    position: relative;
 }
