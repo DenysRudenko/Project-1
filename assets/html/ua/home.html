@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A website for 'Kingdom Of Shadows' tattoo studio.">
-    <meta name="keywords" content="tattoo, tattoo studio Kyiv, kigdom of shadows, tattoo Kyiv, tattoo Ukraine">
+    <meta name="keywords" content="tattoo, tattoo studio Kyiv, kingdom of shadows, tattoo Kyiv, tattoo Ukraine">
     <meta name="author" content="DenysRudenko">
     <link rel="stylesheet" href="/assets/css/style.css">
     <title>Kingdom Of Shadows | Tattoo Studio</title>
@@ -14,63 +14,176 @@
 
 <body>
     <header>
-        <a href="/assets/html/ua/home.html">
-            <h1 class="active ua_font" id="logo">Тату Студія</h1>
-        </a>
-        <nav>
+        <!-- Navigation menu -->
+        <nav id="menu_background">
+            <a href="/assets/html/ua/home.html">
+                <h1 class="active" id="logo">Тату Студія</h1>
+            </a>
             <ul id="menu">
                 <li>
-                    <a target="_blank" id="ua_font"
+                    <a target="_blank"
                         href="https://instagram.com/kingdom_of_shadowsofficial?igshid=YmMyMTA2M2Y=">Інстаграм</a>
                 </li>
                 <li>
-                    <a id="ua_font" target="_blank" href="https://www.facebook.com/AlexsandrTattooArtist">Фейсбук</a>
+                    <a target="_blank" href="https://www.facebook.com/AlexsandrTattooArtist">Фейсбук</a>
                 </li>
                 <li>
-                    <a id="ua_font" target="_blank"
-                        href="https://api.whatsapp.com/send?phone=380639424601&app=facebook&entry_point=page_cta&fbclid=IwAR0GiV0_53aF7Dl5pqmvWnHq8pn7kKHE2sQW-aXtf_7lyw0EPLzRZ3JZJts">What`s
-                        Up</a>
+                    <a target="_blank"
+                        href="https://api.whatsapp.com/send?phone=380639424601&app=facebook&entry_point=page_cta&fbclid=IwAR0GiV0_53aF7Dl5pqmvWnHq8pn7kKHE2sQW-aXtf_7lyw0EPLzRZ3JZJts">Зв'язатись</a>
                 </li>
             </ul>
+
+            <!--Hamburger menu -->
+            <div>
+                <div class="hamburger-menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                        <span></span>
+                    </label>
+
+                    <ul class="menu__box">
+                        <li><a class="menu__item" href="/assets/html/ua/home.html">Головна</a></li>
+                        <li><a class="menu__item gallery" href="/assets/html/ua/gallery.html">Галерея</a></li>
+                        <li><a class="menu__item" href="/assets/html/ua/about.html">Про нас</a></li>
+                        <li><a class="menu__item" href="/assets/html/ua/contact.html">Зв'язатись з нами</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Language list on navigation panel -->
+            <div>
+                <ul id="flags">
+                    <li><a class="ukraine active_lang" target="_blank" href="./assets/html/ua/home.html">UA</a>
+                    </li>
+                    <li><a class="england" target="_blank" href="/index.html">EN</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
 
-    <section>
-        <ul id="flags">
-            <li><a class="ukraine active_lang" target="_blank" href="/assets/html/ua/home.html">UA</a>
-            </li>
-            <li><a class="england" target="_blank" href="/index.html">UK</a>
-            </li>
-        </ul>
-    </section>
-
-    <section id="artist_bg">
+    <!--Appointment at the home page and photo -->
+    <div id="artist_bg">
         <div id="background-image"></div>
         <div id="appointment">
-            <a id="ua_font" target="_blank" class="active" href="#">Замовити зустріч</a>
+            <a target="_blank" class="active" href="/assets/html/ua/contact.html">Замовити зустріч</a>
+        </div>
+    </div>
+
+    <!-- Section for a middle discription  -->
+    <section>
+        <div id="middle_studio">
+            <div class="studio_position">
+                <h2 class="studio_name">Тату Студія в Києві</h2>
+            </div>
+            <div class="hand_loc">
+                <img class="hand_img" src="/assets/images/background/hand.jpg" alt="hand">
+            </div>
+            <div class="middle_text">
+                <p class="studio_about"><span>Kingdom of Shadows</span> забезпечує унікальні і особисті
+                    роботи і наші відгуки говорять самі за себе. Наша репутація і забезпечення найвищої якості. Ми
+                    гарантуємо, що ви завжди підете з унікальними роботами, які
+                    ви будете любити. Тату-студія належить і управляється Олександром Сімаковим.
+                    Олександр постійно
+                    розвиваючись в тату-індустрії, вивчаючи нові методи, ідеології Києва та цінуючи
+                    ілюстрації, які роблять інші.
+                </p>
+                <br>
+                <p class="studio_about">Ми спеціалізуємося на багатьох різних тату жанрах, зберігаючи традиційні
+                    татуювання коренів. Ми завжди прагнемо розірвати межі, щоб надати вам дійсно унікальний твір.
+                    Ми вважаємо за краще працювати з нашими клієнтами і співпрацювати над новими ідеями або додавати до
+                    існуючих
+                    досягти готового продукту, який залишає всіх задоволеними. Наша найбільша нагорода - залишити вас
+                    відчувати гордість своєю новою роботою.</p>
+            </div>
         </div>
     </section>
 
-    <section>
-        <div class="hamburger-menu">
-            <input id="menu__toggle" type="checkbox" />
-            <label class="menu__btn" for="menu__toggle">
-                <span></span>
-            </label>
+    <!-- Video section -->
 
-            <ul class="menu__box">
-                <li><a id="ua_font" class="menu__item" href="../ua/home.html">Головна</a></li>
-                <li><a id="ua_font" class="menu__item" href="#">Галерея</a></li>
-                <li><a id="ua_font" class="menu__item" href="#">Про нас</a></li>
-                <li><a id="ua_font" class="menu__item" href="#">Зв'язатись з нами</a></li>
-                <li><a id="ua_font" class="menu__item" href="#">FAQ</a></li>
-            </ul>
+    <section>
+        <div id="middle_video">
+            <div class="video_position">
+                <h2 class="video_name">Гарантії</h2>
+            </div>
+            <div class="video_loc">
+
+                <video class="video_loc" width="600" height="450" controls>
+                    <source src="/assets/video/video.mp4" type="video/mp4">
+                    <source src="movie.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+
+            </div>
+            <div class="video_text">
+                <p class="video_about">
+                    Ми дуже щирі і відкриті, тому вам не доведеться довго шукати тему для спілкування
+                    час. Загалом: якщо ви хочете наповнити себе чимось цікавим протягом тривалого часу, ви знаєте
+                    до кого звернутись.
+
+                </p>
+                <br>
+                <p class="video_about"> <span>Kingdom of Shadows</span> чекає кожного з вас, виконаємо ваші
+                    мрії, і
+                    ми допоможемо вам визначитися з татуюванням в його стилі і кольорі. Ми можемо гарантувати
+                    оригінальність і
+                    якість.
+                    А також
+                    ми говорили, що давайте самонавчатися зі мною і робити красу на вашому тілі! Ласкаво просимо
+                    до Царства Тіней, дорогі друзі!</p>
+            </div>
         </div>
     </section>
+
+    <!-- Section for a feedback -->
+
     <section>
-        some info will be over here
+        <div class="testimonials">
+            <div class="testimonials_loc">
+                <h2 class="testimonials_text">відгуки</h2>
+
+                <!-- Define the slideshow container -->
+
+                <div id="slideshow">
+                    <div class="slide-wrapper">
+
+                        <!-- Define each of the slides
+                        and write the content -->
+
+                        <div class="slide">
+                            <img src="/assets/images/feedback/person3.png" alt="Feedback person">
+                            <p><span>Ігор -</span> Салон розташований прямо біля дороги, що дуже зручно
+                                (не заблукайте). Тату майстер робить свою роботу на високому, професійному рівні.
+                                Протягом всього сеансу в салоні звучить хороша музика, яка явно приносить користь і
+                                атмосферу в приміщенні. Тобто, як клієнт, ви не відчуваєте ніякого дискомфорту в цілому
+                                процес легкий і... «Ламповий») </p>
+                        </div>
+
+                        <div class="slide">
+                            <img src="/assets/images/feedback/person2.png" alt="Feedback person">
+                            <p><span>Анастасія -</span> Довгий час я шукала хорошу тату-студію, і
+                                професійного
+                                майстра, і згідно з рекламою я потрапила в цей салон... І я хочу сказати
+                                що ніколи жодного разу не шкодувала😊😊 Майстер зробив дуже якісно і
+                                красиві
+                                виправлення моїх старих татуювань, і зробив мою стару маленьку мрію здійснитися в
+                                чудовий
+                                рукав 😍. Велике спасибі за вашу роботу і за ваші ідеї 🤗🤗🤗🤗</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </section>
 
+    <div id="example">
+
+    </div>
+
+    <!-- Footer with a social icons -->
     <footer>
         <ul id="social-network">
             <li>

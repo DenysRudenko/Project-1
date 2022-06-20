@@ -728,9 +728,10 @@ footer>p {
 }
 
 #contact-form {
-    height: 950px;
+    height: 1020px;
     width: 100%;
-    background-color: green;
+    background-color: black;
+    border-top: 2px solid rgb(187, 161, 79, .6);
 }
 
 .contact-form {
@@ -738,11 +739,13 @@ footer>p {
     margin: 20px 0px 10px 20px;
     width: 40%;
     padding-left: 200px;
+    padding-top: 40px;
 
 }
 
 .contact-details p {
     padding-top: 5px;
+    color: #fdfdfd;
 }
 
 .contact-text {
@@ -752,14 +755,74 @@ footer>p {
 
 .contact-details input {
     width: 100%;
+    border-radius: 2px;
+
+}
+
+.contact-details input:hover {
+    border: 3px solid rgb(187, 161, 79);
+}
+
+.contact-message textarea:hover {
+    border: 3px solid rgb(187, 161, 79);
 }
 
 .map-details {
     float: right;
     margin: 20px 20px 10px 0px;
     padding-right: 200px;
+    padding-top: 40px;
 }
 
 .map_heading {
     padding-top: 20px;
+}
+
+.map-details p {
+    color: #fdfdfd;
+}
+
+#contact-form h2 {
+    background: -webkit-linear-gradient(#bba14f, #f7ef8a, #d2ac47, #edc967);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    letter-spacing: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 150%;
+    padding-bottom: 30px;
+}
+
+#contact-form label {
+    color: rgb(187, 161, 79);
+    padding-top: 25px;
+}
+
+.contact-message p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(187, 161, 79);
+}
+
+.map-details h3 {
+    color: rgb(187, 161, 79);
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.button {
+    margin-top: 30px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: rgb(187, 161, 79);
+    color: black;
+    font-weight: bold;
+    border-color: 3px solid #edc967;
+}
+
+.button:hover {
+    background: -webkit-linear-gradient(#bba14f, #f7ef8a, #d2ac47, #edc967);
 }
