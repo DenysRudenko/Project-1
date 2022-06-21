@@ -848,6 +848,12 @@ footer>p {
     }
 
     #background-image {
+        height: 950px;
+        width: 100%;
+        background: url('../images/background/home.jpg') no-repeat center center;
+    }
+
+    #background-image {
         width: 100%;
     }
 
@@ -979,12 +985,20 @@ footer>p {
         width: 100%;
     }
 
+    /*--------- Gallery ------------*/
+
+    #gallery-image {
+        height: 950px;
+        width: 100%;
+        background: url("../images/background/gallery1280.jpg") no-repeat center center;
+    }
+
     /*----------About us -----------*/
 
     #about-image {
         height: 950px;
         width: 100%;
-        background: url("../images/background/gallery1280.jpg") no-repeat center center;
+        background: url("../images/background/about1280.jpg") no-repeat center center;
     }
 
     .alex_loc {
@@ -1051,6 +1065,12 @@ footer>p {
 
     /*------- Contact Us --------*/
 
+    #contact-image {
+        height: 950px;
+        width: 100%;
+        background: url("../images/background/contact1280.jpg") no-repeat center center;
+    }
+
     .contact-form {
         padding-left: 70px;
     }
@@ -1102,7 +1122,7 @@ footer>p {
 
     #menu {
         width: 100%;
-        font-size: 60%;
+        font-size: 50%;
     }
 
     /* Middle and hand image */
@@ -1117,8 +1137,8 @@ footer>p {
     }
 
     .hand_loc img {
-        max-width: 405px;
-        height: 405px;
+        max-width: 320px;
+        height: 320px;
     }
 
     .studio_position {
@@ -1136,7 +1156,7 @@ footer>p {
     }
 
     .middle_text {
-        width: 50%;
+        width: 55%;
         top: 50px;
     }
 
@@ -1157,8 +1177,8 @@ footer>p {
     }
 
     .video_loc video {
-        max-width: 500px;
-        height: 450px;
+        max-width: 400px;
+        height: 350px;
     }
 
     .video_position>h2 {
@@ -1191,11 +1211,11 @@ footer>p {
     }
 
     .slide {
-        width: 1280px;
+        width: 950px;
     }
 
     #slideshow {
-        width: 1280px;
+        width: 950px;
     }
 
     .testimonials_text {
@@ -1210,7 +1230,7 @@ footer>p {
 
         /* Calculate the total width on the
     basis of number of slides */
-        width: calc(1280px * 3);
+        width: calc(950px * 3);
     }
 
     /* Footer */
