@@ -973,6 +973,70 @@ footer>p {
     footer {
         width: 100%;
     }
+
+    /*----------About us -----------*/
+
+    .alex_loc {
+        left: 70px;
+        top: 120px;
+    }
+
+    .alex_loc img {
+        max-width: 405px;
+        height: 405px;
+    }
+
+    .artist_position {
+        right: 120px;
+        width: 40%;
+        top: 40px;
+    }
+
+    .artist_position>h2 {
+        font-size: 110%;
+    }
+
+    .artist_text {
+        font-size: small;
+        top: 50px;
+    }
+
+    .artist_about span {
+        font-size: 15px;
+    }
+
+    /* Instruments and maerials */
+
+    .phone_loc {
+        top: 120px;
+    }
+
+    .phone_loc img {
+        max-width: 500px;
+        height: 405px;
+    }
+
+    .materials_position {
+        left: 120px;
+        width: 40%;
+        top: 40px;
+    }
+
+    .materials_position>h2 {
+        font-size: 110%;
+    }
+
+    .materials_about {
+        font-size: small;
+    }
+
+    .materials_text {
+        top: 70px;
+    }
+
+    .materials_about span {
+        font-size: 15px;
+    }
 }
 
 /* For medium screens sizes from 950px wide and down */
