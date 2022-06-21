@@ -843,18 +843,11 @@ footer>p {
 
     /*-------- Index file --------*/
     /* Header and appointment */
-    #menu_background {
-        width: 100%;
-    }
 
     #background-image {
         height: 950px;
         width: 100%;
         background: url('../images/background/home.jpg') no-repeat center center;
-    }
-
-    #background-image {
-        width: 100%;
     }
 
     #appointment>a {
@@ -867,15 +860,10 @@ footer>p {
     }
 
     #menu {
-        width: 100%;
         font-size: 60%;
     }
 
     /* Middle and hand image */
-
-    #middle_studio {
-        width: 100%;
-    }
 
     .hand_loc {
         right: 50px;
@@ -914,10 +902,6 @@ footer>p {
 
     /* Middle video section */
 
-    #middle_video {
-        width: 100%;
-    }
-
     .video_loc {
         left: 30px;
     }
@@ -952,10 +936,6 @@ footer>p {
     }
 
     /* Feedback section */
-    .testimonials {
-        width: 100%;
-    }
-
     .slide {
         width: 1280px;
     }
@@ -964,25 +944,41 @@ footer>p {
         width: 1280px;
     }
 
+
+
     .testimonials_text {
         font-size: 110%;
     }
 
     .slide p {
         font-size: small;
+        width: 1250px;
     }
 
     .slide-wrapper {
 
         /* Calculate the total width on the
     basis of number of slides */
-        width: calc(1280px * 3);
+        width: calc(1280px * 2);
     }
 
-    /* Footer */
+    @keyframes slide {
 
-    footer {
-        width: 100%;
+        /* Calculate the margin-left for
+  each of the slides */
+        20% {
+            margin-left: 0px;
+        }
+
+        40% {
+            margin-left: calc(-1280x * 1);
+        }
+
+        60% {
+            margin-left: calc(-1280px * 1);
+        }
+
+
     }
 
     /*--------- Gallery ------------*/
@@ -1103,107 +1099,39 @@ footer>p {
 
     /*-------- Index file --------*/
     /* Header and appointment */
-    #menu_background {
-        width: 100%;
-    }
 
     #background-image {
         width: 100%;
     }
 
     #appointment>a {
-        font-size: 100%;
-        right: 300px;
-    }
-
-    #logo {
-        font-size: 110%;
+        left: 20px;
+        bottom: 100px;
     }
 
     #menu {
-        width: 100%;
         font-size: 50%;
     }
 
     /* Middle and hand image */
-
-    #middle_studio {
-        width: 100%;
-    }
-
-    .hand_loc {
-        right: 50px;
-        top: 120px;
-    }
 
     .hand_loc img {
         max-width: 320px;
         height: 320px;
     }
 
-    .studio_position {
-        left: 120px;
-        width: 40%;
-        top: 40px;
-    }
-
-    .studio_position>h2 {
-        font-size: 110%;
-    }
-
-    .studio_about span {
-        font-size: 15px;
-    }
-
     .middle_text {
         width: 55%;
-        top: 50px;
     }
-
-    .studio_about {
-        font-size: small;
-        max-height: 280px;
-    }
-
 
     /* Middle video section */
 
-    #middle_video {
-        width: 100%;
-    }
-
-    .video_loc {
-        left: 30px;
-    }
 
     .video_loc video {
         max-width: 400px;
         height: 350px;
     }
 
-    .video_position>h2 {
-        font-size: 110%;
-    }
-
-    .video_position {
-        right: 10px;
-        top: 40px;
-    }
-
-    .video_text {
-        top: 50px;
-        width: 40%;
-    }
-
-    .video_about {
-        font-size: small;
-        padding-top: 40px;
-
-    }
-
-    .video_about span {
-        font-size: 15px;
-    }
 
     /* Feedback section */
     .testimonials {
@@ -1224,13 +1152,33 @@ footer>p {
 
     .slide p {
         font-size: small;
+        width: 920px;
+    }
+
+    @keyframes slide {
+
+        /* Calculate the margin-left for
+  each of the slides */
+        20% {
+            margin-left: 0px;
+        }
+
+        40% {
+            margin-left: calc(-950x * 1);
+        }
+
+        60% {
+            margin-left: calc(-950px * 1);
+        }
+
+
     }
 
     .slide-wrapper {
 
         /* Calculate the total width on the
     basis of number of slides */
-        width: calc(950px * 3);
+        width: calc(950px * 2);
     }
 
     /* Footer */
@@ -1244,7 +1192,7 @@ footer>p {
     #about-image {
         height: 950px;
         width: 100%;
-        background: url("../images/background/gallery1280.jpg") no-repeat center center;
+        background: url("../images/background/about1280.jpg") no-repeat center center;
     }
 
     .alex_loc {
@@ -1343,9 +1291,6 @@ footer>p {
 
     /*-------- Index file --------*/
     /* Header and appointment */
-    #menu_background {
-        width: 100%;
-    }
 
     #background-image {
         width: 100%;
@@ -1356,55 +1301,21 @@ footer>p {
         right: 300px;
     }
 
-    #logo {
-        font-size: 110%;
-    }
 
     #menu {
-        width: 100%;
         font-size: 60%;
     }
 
     /* Middle and hand image */
-
-    #middle_studio {
-        width: 100%;
-    }
-
-    .hand_loc {
-        right: 50px;
-        top: 120px;
-    }
 
     .hand_loc img {
         max-width: 405px;
         height: 405px;
     }
 
-    .studio_position {
-        left: 120px;
-        width: 40%;
-        top: 40px;
-    }
-
-    .studio_position>h2 {
-        font-size: 110%;
-    }
-
-    .studio_about span {
-        font-size: 15px;
-    }
-
     .middle_text {
         width: 50%;
-        top: 50px;
     }
-
-    .studio_about {
-        font-size: small;
-        max-height: 280px;
-    }
-
 
     /* Middle video section */
 
