@@ -1079,7 +1079,481 @@ footer>p {
 }
 
 /* For medium screens sizes from 950px wide and down */
-@media screen and (max-width: 950px) {}
+@media screen and (max-width: 950px) {
+
+    /*-------- Index file --------*/
+    /* Header and appointment */
+    #menu_background {
+        width: 100%;
+    }
+
+    #background-image {
+        width: 100%;
+    }
+
+    #appointment>a {
+        font-size: 100%;
+        right: 300px;
+    }
+
+    #logo {
+        font-size: 110%;
+    }
+
+    #menu {
+        width: 100%;
+        font-size: 60%;
+    }
+
+    /* Middle and hand image */
+
+    #middle_studio {
+        width: 100%;
+    }
+
+    .hand_loc {
+        right: 50px;
+        top: 120px;
+    }
+
+    .hand_loc img {
+        max-width: 405px;
+        height: 405px;
+    }
+
+    .studio_position {
+        left: 120px;
+        width: 40%;
+        top: 40px;
+    }
+
+    .studio_position>h2 {
+        font-size: 110%;
+    }
+
+    .studio_about span {
+        font-size: 15px;
+    }
+
+    .middle_text {
+        width: 50%;
+        top: 50px;
+    }
+
+    .studio_about {
+        font-size: small;
+        max-height: 280px;
+    }
+
+
+    /* Middle video section */
+
+    #middle_video {
+        width: 100%;
+    }
+
+    .video_loc {
+        left: 30px;
+    }
+
+    .video_loc video {
+        max-width: 500px;
+        height: 450px;
+    }
+
+    .video_position>h2 {
+        font-size: 110%;
+    }
+
+    .video_position {
+        right: 10px;
+        top: 40px;
+    }
+
+    .video_text {
+        top: 50px;
+        width: 40%;
+    }
+
+    .video_about {
+        font-size: small;
+        padding-top: 40px;
+
+    }
+
+    .video_about span {
+        font-size: 15px;
+    }
+
+    /* Feedback section */
+    .testimonials {
+        width: 100%;
+    }
+
+    .slide {
+        width: 1280px;
+    }
+
+    #slideshow {
+        width: 1280px;
+    }
+
+    .testimonials_text {
+        font-size: 110%;
+    }
+
+    .slide p {
+        font-size: small;
+    }
+
+    .slide-wrapper {
+
+        /* Calculate the total width on the
+    basis of number of slides */
+        width: calc(1280px * 3);
+    }
+
+    /* Footer */
+
+    footer {
+        width: 100%;
+    }
+
+    /*----------About us -----------*/
+
+    #about-image {
+        height: 950px;
+        width: 100%;
+        background: url("../images/background/gallery1280.jpg") no-repeat center center;
+    }
+
+    .alex_loc {
+        left: 70px;
+        top: 120px;
+    }
+
+    .alex_loc img {
+        max-width: 405px;
+        height: 405px;
+    }
+
+    .artist_position {
+        right: 120px;
+        width: 40%;
+        top: 40px;
+    }
+
+    .artist_position>h2 {
+        font-size: 110%;
+    }
+
+    .artist_text {
+        font-size: small;
+        top: 50px;
+    }
+
+    .artist_about span {
+        font-size: 15px;
+    }
+
+    /* Instruments and maerials */
+
+    .phone_loc {
+        top: 120px;
+    }
+
+    .phone_loc img {
+        max-width: 500px;
+        height: 405px;
+    }
+
+    .materials_position {
+        left: 120px;
+        width: 40%;
+        top: 40px;
+    }
+
+    .materials_position>h2 {
+        font-size: 110%;
+    }
+
+    .materials_about {
+        font-size: small;
+    }
+
+    .materials_text {
+        top: 70px;
+    }
+
+    .materials_about span {
+        font-size: 15px;
+    }
+
+    /*------- Contact Us --------*/
+
+    .contact-form {
+        padding-left: 70px;
+    }
+
+    .map_heading iframe {
+        width: 530px;
+        height: 400px;
+    }
+
+    .contact-message textarea {
+        width: 102%;
+        height: 25%;
+    }
+
+    .contact-details {
+        font-size: small;
+    }
+
+    #contact-form h2 {
+        font-size: 110%;
+    }
+
+    .map-details {
+        padding-right: 70px;
+    }
+}
 
 /* For small screens sizes from 800px wide and down */
-@media screen and (max-width: 800px) {}
+@media screen and (max-width: 800px) {
+
+    /*-------- Index file --------*/
+    /* Header and appointment */
+    #menu_background {
+        width: 100%;
+    }
+
+    #background-image {
+        width: 100%;
+    }
+
+    #appointment>a {
+        font-size: 100%;
+        right: 300px;
+    }
+
+    #logo {
+        font-size: 110%;
+    }
+
+    #menu {
+        width: 100%;
+        font-size: 60%;
+    }
+
+    /* Middle and hand image */
+
+    #middle_studio {
+        width: 100%;
+    }
+
+    .hand_loc {
+        right: 50px;
+        top: 120px;
+    }
+
+    .hand_loc img {
+        max-width: 405px;
+        height: 405px;
+    }
+
+    .studio_position {
+        left: 120px;
+        width: 40%;
+        top: 40px;
+    }
+
+    .studio_position>h2 {
+        font-size: 110%;
+    }
+
+    .studio_about span {
+        font-size: 15px;
+    }
+
+    .middle_text {
+        width: 50%;
+        top: 50px;
+    }
+
+    .studio_about {
+        font-size: small;
+        max-height: 280px;
+    }
+
+
+    /* Middle video section */
+
+    #middle_video {
+        width: 100%;
+    }
+
+    .video_loc {
+        left: 30px;
+    }
+
+    .video_loc video {
+        max-width: 500px;
+        height: 450px;
+    }
+
+    .video_position>h2 {
+        font-size: 110%;
+    }
+
+    .video_position {
+        right: 10px;
+        top: 40px;
+    }
+
+    .video_text {
+        top: 50px;
+        width: 40%;
+    }
+
+    .video_about {
+        font-size: small;
+        padding-top: 40px;
+
+    }
+
+    .video_about span {
+        font-size: 15px;
+    }
+
+    /* Feedback section */
+    .testimonials {
+        width: 100%;
+    }
+
+    .slide {
+        width: 1280px;
+    }
+
+    #slideshow {
+        width: 1280px;
+    }
+
+    .testimonials_text {
+        font-size: 110%;
+    }
+
+    .slide p {
+        font-size: small;
+    }
+
+    .slide-wrapper {
+
+        /* Calculate the total width on the
+    basis of number of slides */
+        width: calc(1280px * 3);
+    }
+
+    /* Footer */
+
+    footer {
+        width: 100%;
+    }
+
+    /*----------About us -----------*/
+
+    #about-image {
+        height: 950px;
+        width: 100%;
+        background: url("../images/background/gallery1280.jpg") no-repeat center center;
+    }
+
+    .alex_loc {
+        left: 70px;
+        top: 120px;
+    }
+
+    .alex_loc img {
+        max-width: 405px;
+        height: 405px;
+    }
+
+    .artist_position {
+        right: 120px;
+        width: 40%;
+        top: 40px;
+    }
+
+    .artist_position>h2 {
+        font-size: 110%;
+    }
+
+    .artist_text {
+        font-size: small;
+        top: 50px;
+    }
+
+    .artist_about span {
+        font-size: 15px;
+    }
+
+    /* Instruments and maerials */
+
+    .phone_loc {
+        top: 120px;
+    }
+
+    .phone_loc img {
+        max-width: 500px;
+        height: 405px;
+    }
+
+    .materials_position {
+        left: 120px;
+        width: 40%;
+        top: 40px;
+    }
+
+    .materials_position>h2 {
+        font-size: 110%;
+    }
+
+    .materials_about {
+        font-size: small;
+    }
+
+    .materials_text {
+        top: 70px;
+    }
+
+    .materials_about span {
+        font-size: 15px;
+    }
+
+    /*------- Contact Us --------*/
+
+    .contact-form {
+        padding-left: 70px;
+    }
+
+    .map_heading iframe {
+        width: 530px;
+        height: 400px;
+    }
+
+    .contact-message textarea {
+        width: 102%;
+        height: 25%;
+    }
+
+    .contact-details {
+        font-size: small;
+    }
+
+    #contact-form h2 {
+        font-size: 110%;
+    }
+
+    .map-details {
+        padding-right: 70px;
+    }
+}
