@@ -946,11 +946,26 @@ footer>p {
     }
 
     .slide {
-        width: 100%;
+        width: 1280px;
     }
 
     #slideshow {
-        width: 100%;
+        width: 1280px;
+    }
+
+    .testimonials_text {
+        font-size: 110%;
+    }
+
+    .slide p {
+        font-size: small;
+    }
+
+    .slide-wrapper {
+
+        /* Calculate the total width on the
+    basis of number of slides */
+        width: calc(1280px * 3);
     }
 
     /* Footer */
