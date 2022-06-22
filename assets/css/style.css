@@ -1178,17 +1178,16 @@ footer>p {
         height: 300px;
     }
 
-    .contact-message textarea {
-        width: 102%;
-        height: 25%;
-    }
-
     .contact-details {
         font-size: small;
     }
 
     #contact-form h2 {
-        font-size: 110%;
+        font-size: 100%;
+    }
+
+    .map_heading h3 {
+        font-size: 100%;
     }
 
     .map-details {
