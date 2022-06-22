@@ -1107,8 +1107,9 @@ footer>p {
     }
 
     #appointment>a {
-        left: 90px;
-        bottom: 40px;
+        left: 310px;
+        bottom: 70px;
+        width: 100%;
     }
 
     #menu {
