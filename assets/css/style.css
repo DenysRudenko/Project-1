@@ -1025,7 +1025,7 @@ footer>p {
 
     #appointment>a {
         left: 210px;
-        bottom: 70px
+        bottom: 20px
     }
 
     #menu {
@@ -1208,10 +1208,9 @@ footer>p {
     }
 
     #appointment>a {
-        font-size: 100%;
-        right: 200px;
-        width: 70%;
-        bottom: 10px;
+        font-size: 90%;
+        right: 300px;
+        left: 110px;
     }
 
 
@@ -1222,32 +1221,43 @@ footer>p {
     /* Middle and hand image */
 
     #middle_studio {
-        height: 1200px;
-        background-color: green;
+        height: 860px;
     }
 
     .hand_loc {
-        float: none;
-        top: 100px;
+        right: 100px;
+        top: 560px;
+        right: 270px;
+
+    }
+
+    .studio_position {
+        text-align: center;
+        left: 200px;
+        width: 50%;
+        top: 20px;
     }
 
     .hand_loc img {
-        max-width: 300px;
-        height: 300px;
+        max-width: 250px;
+        height: 250px;
     }
 
     .middle_text {
-        width: 50%;
+        width: 82%;
+        top: -190px;
     }
 
     /* Middle video section */
 
     #middle_video {
-        height: 1100px;
+        width: 100%;
+        height: 820px;
     }
 
     .video_loc {
-        left: 30px;
+        left: 72px;
+        top: 165px;
     }
 
     .video_loc video {
@@ -1260,13 +1270,14 @@ footer>p {
     }
 
     .video_position {
-        right: 10px;
-        top: 40px;
+        right: 240px;
+        top: 20px;
     }
 
     .video_text {
-        top: 50px;
-        width: 40%;
+        top: -430px;
+        width: 82%;
+        right: 70px;
     }
 
     .video_about {
@@ -1284,6 +1295,11 @@ footer>p {
     #feedback {
         height: 1000px;
     }
+
+    .feedback_position>h2 {
+        font-size: 100%;
+    }
+
 
     /*----------- Gallery -----------*/
 
