@@ -678,10 +678,10 @@ footer>p {
 
 .contact-form {
     float: left;
-    margin: 20px 0px 10px 20px;
     width: 40%;
-    padding-left: 200px;
-    padding-top: 40px;
+    left: 50px;
+    top: 40px;
+    position: relative;
 
 }
 
@@ -711,9 +711,9 @@ footer>p {
 
 .map-details {
     float: right;
-    margin: 20px 20px 10px 0px;
-    padding-right: 200px;
-    padding-top: 40px;
+    right: 50px;
+    top: 40px;
+    position: relative;
 }
 
 .map_heading {
@@ -954,7 +954,7 @@ footer>p {
     /*------- Contact Us --------*/
 
     .contact-form {
-        padding-left: 70px;
+        padding-left: 10px;
     }
 
     .map_heading iframe {
@@ -976,7 +976,7 @@ footer>p {
     }
 
     .map-details {
-        padding-right: 70px;
+        padding-right: 10px;
     }
 }
 
@@ -1023,6 +1023,47 @@ footer>p {
 
 }
 
+
+@media screen and (max-width: 1121px) {
+
+    /* about us */
+    #middle_artist {
+        height: 670px;
+    }
+
+    .artist_text {
+        right: 40px;
+
+    }
+
+    .materials_text {
+        left: 40px;
+        width: 48%;
+    }
+
+    #middle_materials {
+        height: 670px;
+        width: 100%;
+        background-color: black;
+    }
+
+
+    /* Contact us */
+    .contact-form {
+        float: left;
+        width: 40%;
+        left: 20px;
+        top: 40px;
+        position: relative;
+    }
+
+    .map-details {
+        float: right;
+        right: 20px;
+        top: 40px;
+        position: relative;
+    }
+}
 
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width: 1024px) {
@@ -1231,6 +1272,7 @@ footer>p {
 
     /*-------- Index file --------*/
     /* Header and appointment */
+
 
     #appointment>a {
         font-size: 90%;
