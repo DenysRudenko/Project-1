@@ -1140,7 +1140,7 @@ footer>p {
 
     .materials_position {
         left: 120px;
-        width: 100%;
+        width: 83%;
         top: 40px;
     }
 
@@ -1323,12 +1323,13 @@ footer>p {
     }
 
     #middle_artist {
-        height: 900px;
+        height: 910px;
     }
 
     .alex_loc {
         left: 270px;
         top: 600px;
+        padding-top: 15px;
     }
 
     .alex_loc img {
@@ -1361,27 +1362,20 @@ footer>p {
     /* Instruments and maerials */
 
     #middle_materials {
-        height: 1000px;
-        background-color: green;
+        height: 810px;
     }
 
-    .phone_loc {
-        bottom: 120px;
-    }
 
-    .phone_loc img {
-        max-width: 300px;
-        height: 205px;
-    }
 
     .materials_position {
-        left: 120px;
-        width: 40%;
-        top: 40px;
+        left: 170px;
+        width: 70%;
+        top: 20px;
     }
 
+
     .materials_position>h2 {
-        font-size: 110%;
+        font-size: 100%;
     }
 
     .materials_about {
@@ -1389,11 +1383,23 @@ footer>p {
     }
 
     .materials_text {
-        top: 70px;
+        top: 40px;
+        width: 83%;
+        left: 70px;
     }
 
     .materials_about span {
         font-size: 15px;
+    }
+
+    .phone_loc {
+        position: absolute;
+        top: 143.75em;
+    }
+
+    .phone_loc img {
+        max-width: 400px;
+        max-height: 300px
     }
 
     /*------- Contact Us --------*/
