@@ -1227,15 +1227,10 @@ footer>p {
 }
 
 /* For small screens sizes from 800px wide and down */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 950px) {
 
     /*-------- Index file --------*/
     /* Header and appointment */
-
-    #background-image {
-        height: 950px;
-        background: url('../images/background/home800.jpg') no-repeat center center;
-    }
 
     #appointment>a {
         font-size: 90%;
@@ -1333,24 +1328,12 @@ footer>p {
 
     /*----------- Gallery -----------*/
 
-    #gallery-image {
-        height: 950px;
-        width: 100%;
-        background: url("../images/background/gallery800.jpg") no-repeat center center;
-    }
-
     .gallery-images {
         max-width: 80%;
         max-height: 800px;
     }
 
     /*----------About us -----------*/
-
-    #about-image {
-        height: 950px;
-        width: 100%;
-        background: url("../images/background/about800.jpg") no-repeat center center;
-    }
 
     #middle_artist {
         height: 910px;
@@ -1433,14 +1416,6 @@ footer>p {
     }
 
     /*------- Contact Us --------*/
-
-    #contact-image {
-        height: 950px;
-        width: 100%;
-        background: url("../images/background/contact800.jpg") no-repeat center center;
-    }
-
-
     #contact-form {
         height: 1000px;
     }
@@ -1478,4 +1453,47 @@ footer>p {
         font-size: 15px;
     }
 
+}
+
+/* For media screens sizes 950px */
+@media screen and (max-width: 800px) {
+
+    /*-------- Index file --------*/
+    /* Header and appointment */
+
+    #background-image {
+        height: 950px;
+        width: 100%;
+        background: url('../images/background/home800.jpg') no-repeat center center;
+    }
+
+    #appointment>a {
+        font-size: 100%;
+        right: 300px;
+        bottom: 40px;
+    }
+
+    /*--------- Gallery ------------*/
+
+    #gallery-image {
+        height: 950px;
+        width: 100%;
+        background: url("../images/background/gallery800.jpg") no-repeat center center;
+    }
+
+    /*----------About us -----------*/
+
+    #about-image {
+        height: 950px;
+        width: 100%;
+        background: url("../images/background/about800.jpg") no-repeat center center;
+    }
+
+    /*------- Contact Us --------*/
+
+    #contact-image {
+        height: 950px;
+        width: 100%;
+        background: url("../images/background/contact800.jpg") no-repeat center center;
+    }
 }
