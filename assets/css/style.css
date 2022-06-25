@@ -245,10 +245,6 @@ h1 {
     border-bottom: 1px solid #fdfdfd;
 }
 
-/* .active {
-    border-bottom: 1px solid #fdfdfd;
-} */
-
 /* tattoo artist image */
 
 #background-image {
@@ -780,22 +776,16 @@ footer>p {
 
 /* Media queries */
 
-/* For large to medium screens sizes from 1200px wide and down */
-@media screen and (max-width: 1280px) {
+/* For large to medium screens sizes from 1600px wide and down */
+@media screen and (max-width: 1600px) {
 
     /*-------- Index file --------*/
     /* Header and appointment */
 
-    #background-image {
-        height: 950px;
-        width: 100%;
-        background: url('../images/background/home.jpg') no-repeat center center;
-    }
-
     #appointment>a {
         font-size: 100%;
-        right: 300px;
-        bottom: 40px;
+        left: 300px;
+        top: 750px;
     }
 
     #logo {
@@ -896,21 +886,8 @@ footer>p {
     }
 
 
-    /*--------- Gallery ------------*/
-
-    #gallery-image {
-        height: 950px;
-        width: 100%;
-        background: url("../images/background/gallery1280.jpg") no-repeat center center;
-    }
 
     /*----------About us -----------*/
-
-    #about-image {
-        height: 950px;
-        width: 100%;
-        background: url("../images/background/about1280.jpg") no-repeat center center;
-    }
 
     .alex_loc {
         left: 70px;
@@ -976,12 +953,6 @@ footer>p {
 
     /*------- Contact Us --------*/
 
-    #contact-image {
-        height: 950px;
-        width: 100%;
-        background: url("../images/background/contact1280.jpg") no-repeat center center;
-    }
-
     .contact-form {
         padding-left: 70px;
     }
@@ -1009,19 +980,55 @@ footer>p {
     }
 }
 
-/* For medium screens sizes from 950px wide and down */
-@media screen and (max-width: 950px) {
-
+/* For medium screens sizes from 1280px wide and down */
+@media screen and (max-width: 1280px) {
     /*-------- Index file --------*/
     /* Header and appointment */
 
-
-
     #background-image {
-        width: 100%;
         height: 950px;
-        background: url('../images/background/home950.jpg') no-repeat center center;
+        width: 100%;
+        background: url('../images/background/home.jpg') no-repeat center center;
     }
+
+    #appointment>a {
+        font-size: 100%;
+        right: 300px;
+        bottom: 40px;
+    }
+
+    /*--------- Gallery ------------*/
+
+    #gallery-image {
+        height: 950px;
+        width: 100%;
+        background: url("../images/background/gallery1280.jpg") no-repeat center center;
+    }
+
+    /*----------About us -----------*/
+
+    #about-image {
+        height: 950px;
+        width: 100%;
+        background: url("../images/background/about1280.jpg") no-repeat center center;
+    }
+
+    /*------- Contact Us --------*/
+
+    #contact-image {
+        height: 950px;
+        width: 100%;
+        background: url("../images/background/contact1280.jpg") no-repeat center center;
+    }
+
+}
+
+
+/* For medium screens sizes from 950px wide and down */
+@media screen and (max-width: 1024px) {
+
+    /*-------- Index file --------*/
+    /* Header and appointment */
 
     #appointment>a {
         left: 210px;
@@ -1080,21 +1087,7 @@ footer>p {
     }
 
 
-    /*---------- Gallery -----------*/
-
-    #gallery-image {
-        height: 950px;
-        width: 100%;
-        background: url("../images/background/gallery950.jpg") no-repeat center center;
-    }
-
     /*----------About us -----------*/
-
-    #about-image {
-        height: 950px;
-        width: 100%;
-        background: url("../images/background/about950.jpg") no-repeat center center;
-    }
 
     .alex_loc {
         left: 50px;
@@ -1163,12 +1156,6 @@ footer>p {
 
     /*------- Contact Us --------*/
 
-    #contact-image {
-        height: 950px;
-        width: 100%;
-        background: url("../images/background/contact950.jpg") no-repeat center center;
-    }
-
     .contact-form {
         padding-left: 20px;
     }
@@ -1194,6 +1181,49 @@ footer>p {
         padding-right: 20px;
     }
 
+}
+
+/* For media screens sizes 950px */
+@media screen and (max-width: 950px) {
+
+    /*-------- Index file --------*/
+    /* Header and appointment */
+
+    #background-image {
+        height: 950px;
+        width: 100%;
+        background: url('../images/background/home950.jpg') no-repeat center center;
+    }
+
+    #appointment>a {
+        font-size: 100%;
+        right: 300px;
+        bottom: 40px;
+    }
+
+    /*--------- Gallery ------------*/
+
+    #gallery-image {
+        height: 950px;
+        width: 100%;
+        background: url("../images/background/gallery950.jpg") no-repeat center center;
+    }
+
+    /*----------About us -----------*/
+
+    #about-image {
+        height: 950px;
+        width: 100%;
+        background: url("../images/background/about950.jpg") no-repeat center center;
+    }
+
+    /*------- Contact Us --------*/
+
+    #contact-image {
+        height: 950px;
+        width: 100%;
+        background: url("../images/background/contact950.jpg") no-repeat center center;
+    }
 }
 
 /* For small screens sizes from 800px wide and down */
