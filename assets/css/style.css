@@ -1410,13 +1410,20 @@ footer>p {
         background: url("../images/background/contact800.jpg") no-repeat center center;
     }
 
-    .contact-form {
-        padding-left: 70px;
+
+    #contact-form {
+        height: 1000px;
     }
 
-    .map_heading iframe {
-        width: 530px;
-        height: 400px;
+    .map-details {
+        display: none;
+    }
+
+    /* ------------------ */
+    .contact-form {
+        padding-left: 40px;
+        width: 83%;
+        padding-top: 20px;
     }
 
     .contact-message textarea {
@@ -1429,10 +1436,16 @@ footer>p {
     }
 
     #contact-form h2 {
-        font-size: 110%;
+        font-size: 100%;
+        text-align: center;
     }
 
-    .map-details {
-        padding-right: 70px;
+    #contact-form p {
+        font-size: 15px;
     }
+
+    .contact-text {
+        font-size: 15px;
+    }
+
 }
