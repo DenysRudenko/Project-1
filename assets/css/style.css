@@ -714,6 +714,7 @@ footer>p {
     right: 50px;
     top: 40px;
     position: relative;
+    padding-left: 5px;
 }
 
 .map_heading {
@@ -955,6 +956,7 @@ footer>p {
 
     .contact-form {
         padding-left: 10px;
+        padding-right: 10px;
     }
 
     .map_heading iframe {
@@ -977,6 +979,7 @@ footer>p {
 
     .map-details {
         padding-right: 10px;
+        padding-left: 10px;
     }
 }
 
