@@ -1322,29 +1322,36 @@ footer>p {
         background: url("../images/background/about800.jpg") no-repeat center center;
     }
 
+    #middle_artist {
+        height: 900px;
+    }
+
     .alex_loc {
-        left: 70px;
-        top: 120px;
+        left: 270px;
+        top: 600px;
     }
 
     .alex_loc img {
-        max-width: 405px;
-        height: 405px;
+        max-width: 250px;
+        height: 250px;
     }
 
     .artist_position {
-        right: 120px;
+        right: 220px;
         width: 40%;
-        top: 40px;
+        top: 20px;
     }
 
     .artist_position>h2 {
-        font-size: 110%;
+        font-size: 100%;
     }
 
     .artist_text {
         font-size: small;
-        top: 50px;
+        top: -200px;
+        left: -60px;
+        width: 83%;
+
     }
 
     .artist_about span {
@@ -1353,13 +1360,18 @@ footer>p {
 
     /* Instruments and maerials */
 
+    #middle_materials {
+        height: 1000px;
+        background-color: green;
+    }
+
     .phone_loc {
-        top: 120px;
+        bottom: 120px;
     }
 
     .phone_loc img {
-        max-width: 500px;
-        height: 405px;
+        max-width: 300px;
+        height: 205px;
     }
 
     .materials_position {
