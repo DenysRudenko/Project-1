@@ -1611,7 +1611,7 @@ footer>p {
     /* About us */
 
     #middle_artist {
-        height: 1000px;
+        height: 950px;
     }
 
     .artist_position {
@@ -1621,7 +1621,7 @@ footer>p {
 
     .alex_loc {
         left: 215px;
-        top: 650px;
+        top: 660px;
     }
 
     #middle_materials {
@@ -1637,5 +1637,83 @@ footer>p {
     .phone_loc {
         position: absolute;
         top: 155.75em;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    /* home page */
+    #logo {
+        font-size: 80%;
+    }
+
+    .ukraine {
+        display: none;
+    }
+
+    .england {
+        display: none;
+    }
+
+    .menu__btn {
+        right: 15px;
+        width: 32px;
+        height: 42px;
+        top: 35px;
+    }
+
+    #appointment>a {
+        display: none;
+    }
+
+    #middle_studio {
+        height: 1200px;
+    }
+
+    .studio_position {
+        left: 20px;
+        width: 90%;
+    }
+
+    .studio_position>h2 {
+        font-size: 80%;
+    }
+
+    .hand_loc img {
+        max-width: 150px;
+        height: 150px;
+    }
+
+    .hand_loc {
+        top: 980px;
+        right: 80px;
+    }
+
+    .middle_text {
+        width: 82%;
+        top: -120px;
+        left: 35px;
+    }
+
+    .studio_about {
+        font-size: 10px;
+        max-height: 700px;
+    }
+
+    .studio_about span {
+        font-size: 12px;
+    }
+
+    #middle_video {
+        height: 1200px;
+    }
+
+    .video_position {
+        right: 70px;
+        width: 50%;
+    }
+
+    .video_position>h2 {
+        font-size: 80%;
     }
 }
