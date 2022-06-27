@@ -799,7 +799,7 @@ footer>p {
 
     .menu__box {
         height: 100%;
-        width: 80%;
+        width: 20%;
     }
 
     /* Middle and hand image */
@@ -1007,6 +1007,11 @@ footer>p {
         background: url('../images/background/home.jpg') no-repeat center center;
     }
 
+    .menu__box {
+        height: 100%;
+        width: 23%;
+    }
+
     #appointment>a {
         font-size: 100%;
         right: 300px;
@@ -1041,6 +1046,11 @@ footer>p {
 
 
 @media screen and (max-width: 1121px) {
+
+    .menu__box {
+        height: 100%;
+        width: 25%;
+    }
 
     /* about us */
     #middle_artist {
@@ -1086,6 +1096,11 @@ footer>p {
 
     /*-------- Index file --------*/
     /* Header and appointment */
+
+    .menu__box {
+        height: 100%;
+        width: 28%;
+    }
 
     #appointment>a {
         left: 210px;
@@ -1146,6 +1161,10 @@ footer>p {
 
     /*----------About us -----------*/
 
+    #middle_artist {
+        height: 800px;
+    }
+
     .alex_loc {
         left: 50px;
         top: 120px;
@@ -1178,6 +1197,11 @@ footer>p {
     }
 
     /* Instruments and maerials */
+
+    #middle_materials {
+        height: 800px;
+
+    }
 
     .phone_loc {
         top: 120px;
@@ -1261,6 +1285,11 @@ footer>p {
         font-size: 100%;
         right: 300px;
         bottom: 40px;
+    }
+
+    .menu__box {
+        height: 100%;
+        width: 30%;
     }
 
     /*--------- Gallery ------------*/
@@ -1536,6 +1565,11 @@ footer>p {
         bottom: 40px;
     }
 
+    .menu__box {
+        height: 100%;
+        width: 38%;
+    }
+
     /*--------- Gallery ------------*/
 
     #gallery-image {
@@ -1582,6 +1616,11 @@ footer>p {
 
     #middle_studio {
         height: 950px;
+    }
+
+    .menu__box {
+        height: 100%;
+        width: 43%;
     }
 
     .hand_loc {
@@ -1659,6 +1698,11 @@ footer>p {
     #background-image {
         height: 675px;
         background: url("../images/background/home500.jpg") no-repeat center center;
+    }
+
+    .menu__box {
+        height: 100%;
+        width: 60%;
     }
 
     #logo {
@@ -1935,6 +1979,11 @@ footer>p {
         background: url("../images/background/home368.jpg") no-repeat center center;
     }
 
+    .menu__box {
+        height: 100%;
+        width: 70%;
+    }
+
     #middle_studio {
         height: 1100px;
     }
@@ -2062,6 +2111,11 @@ footer>p {
         height: 432px;
         width: 100%;
         background: url("../images/background/about320.jpg") no-repeat center center;
+    }
+
+    .menu__box {
+        height: 100%;
+        width: 75%;
     }
 
     #middle_artist {
