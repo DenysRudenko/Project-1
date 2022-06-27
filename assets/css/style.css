@@ -1568,7 +1568,7 @@ footer>p {
     /* Home page */
 
     #middle_studio {
-        height: 900px;
+        height: 950px;
     }
 
     .hand_loc {
@@ -1583,7 +1583,7 @@ footer>p {
 
     #middle_video {
 
-        height: 900px;
+        height: 950px;
     }
 
     .video_position {
@@ -1606,5 +1606,36 @@ footer>p {
 
     #feedback {
         height: 1200px;
+    }
+
+    /* About us */
+
+    #middle_artist {
+        height: 1000px;
+    }
+
+    .artist_position {
+        right: 80px;
+        width: 60%;
+    }
+
+    .alex_loc {
+        left: 215px;
+        top: 650px;
+    }
+
+    #middle_materials {
+        height: 1000px;
+    }
+
+    .materials_position {
+        left: 130px;
+        width: 70%;
+        top: 20px;
+    }
+
+    .phone_loc {
+        position: absolute;
+        top: 155.75em;
     }
 }
