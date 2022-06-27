@@ -797,6 +797,11 @@ footer>p {
         font-size: 60%;
     }
 
+    .menu__box {
+        height: 100%;
+        width: 80%;
+    }
+
     /* Middle and hand image */
 
     .hand_loc {
@@ -1917,6 +1922,11 @@ footer>p {
 
 @media screen and (max-width: 368px) {
 
+    #background-image {
+        height: 497px;
+        background: url("../images/background/home368.jpg") no-repeat center center;
+    }
+
     #middle_studio {
         height: 1100px;
     }
@@ -1958,6 +1968,17 @@ footer>p {
         height: 150px;
     }
 
+    #gallery-image {
+        height: 497px;
+        width: 100%;
+        background: url("../images/background/gallery368.jpg") no-repeat center center;
+    }
+
+    #about-image {
+        height: 497px;
+        width: 100%;
+        background: url("../images/background/about368.jpg") no-repeat center center;
+    }
 
 
     #middle_artist {
@@ -1991,14 +2012,18 @@ footer>p {
     }
 
     .phone_loc {
-        top: 165.75em;
+        top: 155.75em;
     }
 
     .feedback_position>h2 {
         font-size: 80%;
     }
 
-
+    #contact-image {
+        height: 497px;
+        width: 100%;
+        background: url("../images/background/contact368.jpg") no-repeat center center;
+    }
 
     #contact-form {
         height: 1100px;
