@@ -1,10 +1,10 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Welcome to Kingdom Of Shadows!
 
-Welcome Denys ,
+This website is designed for a tattoo studio.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+**Kingdom of Shadows** is a tattoo studio located in Ukraine, Kyiv. The owner of the studio "Alexandr Simakov" asked to make a beta website for him.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+So i decided to have a try. The live website can be found [here](https://denysrudenko.github.io/Project-1.-Tatto-studio./)
 
 ## Gitpod Reminders
 
