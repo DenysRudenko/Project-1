@@ -1771,7 +1771,7 @@ footer>p {
 
     .feedback_text img,
     .feedback_text2 img {
-        max-width: 100%;
+        max-width: 90%;
         max-height: 100px;
     }
 
@@ -1930,26 +1930,35 @@ footer>p {
     }
 
     .studio_position {
-        left: 20px;
-        width: 90%;
+        left: 25px;
+        width: 80%;
     }
 
     .hand_loc {
         top: 880px;
-        right: 100px;
+        right: 110px;
     }
 
     .video_text {
         right: 30px;
+        width: 80%;
     }
 
     .middle_text {
         left: 35px;
+        width: 80%;
     }
 
     .video_loc {
-        left: 10px;
+        left: 0px;
     }
+
+    .video_loc video {
+        max-width: 100%;
+        height: 150px;
+    }
+
+
 
     #middle_artist {
         height: 1200px;
@@ -1984,6 +1993,12 @@ footer>p {
     .phone_loc {
         top: 165.75em;
     }
+
+    .feedback_position>h2 {
+        font-size: 80%;
+    }
+
+
 
     #contact-form {
         height: 1100px;
