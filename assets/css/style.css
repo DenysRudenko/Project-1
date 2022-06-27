@@ -1640,9 +1640,14 @@ footer>p {
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 500px) {
 
-    /* home page */
+    /* Home */
+    #background-image {
+        height: 675px;
+        background: url("../images/background/home500.jpg") no-repeat center center;
+    }
+
     #logo {
         font-size: 80%;
     }
@@ -1671,7 +1676,7 @@ footer>p {
     }
 
     #middle_studio {
-        height: 1200px;
+        height: 900px;
     }
 
     .studio_position {
@@ -1689,14 +1694,14 @@ footer>p {
     }
 
     .hand_loc {
-        top: 980px;
-        right: 85px;
+        top: 650px;
+        right: 175px;
     }
 
     .middle_text {
         width: 82%;
         top: -120px;
-        left: 35px;
+        left: 45px;
     }
 
     .studio_about {
@@ -1728,7 +1733,7 @@ footer>p {
     .video_text {
         top: -120px;
         width: 82%;
-        right: 20px;
+        right: 40px;
     }
 
     .video_about {
@@ -1751,7 +1756,7 @@ footer>p {
     }
 
     #feedback {
-        height: 1500px;
+        height: 1150px;
     }
 
     .feedback_position>h2 {
@@ -1769,4 +1774,257 @@ footer>p {
         max-width: 100%;
         max-height: 100px;
     }
+
+    .feedback_text p>span,
+    .feedback_text2 p>span {
+        font-size: 12px;
+    }
+
+    footer>p {
+        font-size: 11px;
+    }
+
+    #social-network>li {
+        font-size: 200%;
+    }
+
+    /*--------- Gallery ------------*/
+
+    #gallery-image {
+        height: 675px;
+        width: 100%;
+        background: url("../images/background/gallery500.jpg") no-repeat center center;
+    }
+
+    .gallery-images {
+        max-width: 100%;
+        max-height: 400px;
+        padding: 15px 0px 15px 0px;
+    }
+
+
+    /*----------About us -----------*/
+
+    #about-image {
+        height: 675px;
+        width: 100%;
+        background: url("../images/background/about500.jpg") no-repeat center center;
+    }
+
+    #middle_artist {
+        height: 950px;
+    }
+
+    .artist_position {
+        right: 0px;
+        width: 73%;
+    }
+
+    .artist_position>h2 {
+        font-size: 70%;
+    }
+
+    .artist_text {
+        font-size: 10px;
+        top: -130px;
+        left: -40px;
+        width: 83%;
+    }
+
+    .artist_about span {
+        font-size: 12px;
+    }
+
+    .alex_loc {
+        left: 165px;
+        top: 710px;
+    }
+
+    .alex_loc img {
+        max-width: 100%;
+        height: 150px;
+    }
+
+    #middle_materials {
+        height: 800px;
+    }
+
+    .materials_position {
+        left: 70px;
+        width: 80%;
+        top: 20px;
+    }
+
+    .materials_position>h2 {
+        font-size: 70%;
+    }
+
+    .materials_text {
+        top: 40px;
+        width: 83%;
+        left: 40px;
+    }
+
+    .materials_about {
+        font-size: 10px;
+    }
+
+    .materials_about span {
+        font-size: 12px;
+    }
+
+    .phone_loc {
+        position: absolute;
+        top: 135.75em;
+    }
+
+    .phone_loc img {
+        max-width: 100%;
+        max-height: 200px;
+    }
+
+    /*------- Contact Us --------*/
+
+    #contact-image {
+        height: 675px;
+        width: 100%;
+        background: url("../images/background/contact500.jpg") no-repeat center center;
+    }
+
+    #contact-form {
+        height: 1000px;
+    }
+
+    .contact-form {
+        padding-left: 10px;
+        width: 86%;
+        padding-right: 10px;
+    }
+
+    #contact-form h2 {
+        font-size: 80%;
+    }
+
+    #contact-form p {
+        font-size: 12px;
+    }
+
+    .contact-text {
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+
+    /* home page */
+    #background-image {
+        height: 432px;
+        background: url("../images/background/home320.jpg") no-repeat center center;
+    }
+
+    #middle_studio {
+        height: 1200px;
+    }
+
+    #middle_video {
+        height: 850px;
+    }
+
+    #feedback {
+        height: 1550px;
+    }
+
+    .studio_position {
+        left: 20px;
+        width: 90%;
+    }
+
+    .hand_loc {
+        top: 980px;
+        right: 85px;
+    }
+
+    .video_text {
+        right: 20px;
+    }
+
+    .middle_text {
+        left: 35px;
+    }
+
+    .video_loc {
+        left: 5px;
+    }
+
+    /*--------- Gallery ------------*/
+
+    #gallery-image {
+        height: 432px;
+        width: 100%;
+        background: url("../images/background/gallery320.jpg") no-repeat center center;
+    }
+
+
+    /*----------About us -----------*/
+
+    #about-image {
+        height: 432px;
+        width: 100%;
+        background: url("../images/background/about320.jpg") no-repeat center center;
+    }
+
+    #middle_artist {
+        height: 1350px;
+    }
+
+    .artist_position {
+        right: 20px;
+    }
+
+    .alex_loc {
+        left: 85px;
+        top: 1100px;
+    }
+
+    .artist_text {
+        left: -20px;
+        width: 83%;
+    }
+
+    #middle_materials {
+        height: 1100px;
+    }
+
+    .materials_position {
+        left: 50px;
+    }
+
+    .materials_text {
+        left: 30px;
+    }
+
+    .phone_loc {
+        top: 165.75em;
+    }
+
+    /*------- Contact Us --------*/
+
+    #contact-image {
+        height: 432px;
+        width: 100%;
+        background: url("../images/background/contact320.jpg") no-repeat center center;
+    }
+
+    #contact-form {
+        height: 1100px;
+    }
+
+    .contact-form {
+        padding-left: 0px;
+        width: 86%;
+        padding-right: 10px;
+    }
+
+
 }
