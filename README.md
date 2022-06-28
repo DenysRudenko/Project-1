@@ -16,6 +16,8 @@ This website is designed for a [tattoo studio](https://denysrudenko.github.io/Pr
     - [User Expectations:](#user-expectations)
     -	[Colour scheme and font](#color-scheme)
     - [Audio/video controls](#audio-video)
+    - [Site skeleton (wireframes)](#wireframes)
+     - [Introduction page](#introduction-page)
   
 <a name="interested"></a>
 # 1. Who will be interested in visiting the website?
@@ -79,6 +81,30 @@ What i did?
 
 ![950px](./assets/images/background/about950.jpg)
 
+<a name="wireframes"></a>
+## 1.5 Site Skeleton
+  [Go to the top](#table-of-contents)
+
+[Wireframe](https://wireframe.cc/) was used to create wireframes of the website. This was very useful as you can quickly make an example of your website.
+
+<a name="introduction-page"></a>
+### Introduction Page
+
+####Desktop
+
+* Home page
+
+![home](./assets/images/dm/3.png)
+
+![home2](./assets/images/dm/4.png)
+
+* Gallery page
+
+![home](./assets/images/dm/5.png)
+
+* Contact page
+
+![home](./assets/images/dm/6.png)
 
 
 
