@@ -23,6 +23,9 @@ This website is designed for a [tattoo studio](https://denysrudenko.github.io/Pr
  [2. Features](#features)
 
  [3.Technologies used](#technologies-used)
+
+ [4.Testing](#testing)
+
   
 <a name="interested"></a>
 # 1. Who will be interested in visiting the website?
@@ -265,6 +268,24 @@ Background color of header is trasparent.
 * Extensiions for visual studio, see the photo below:
 
 ![extensions](./assets/images/dm/13.png)
+
+
+# 4. Testing
+  [Go to the top](#table-of-contents)
+
+## 4.1 Testing using tools
+
+### 4.1.1 Google Developer Tools
+I make use of google developer tools (Chrome DevTools). 
+
+### 4.1.2 Responsive Tools
+
+In order to make sure that design web pages are responsive, [Am I Responsive](http://ami.responsivedesign.is/) site was used to check it. 
+Also checked with a mobile phone Huawei p40 lite.
+
+### 4.1.3 W3C Validator Tools
+
+
 
 
 
