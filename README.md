@@ -154,11 +154,11 @@ What i did?
 
 * About page
 
-![home](./assets/images/dm/about.jpg)
+![home](./assets/images/dm/about1.jpg)
 
 * Contact page
 
-![home](./assets/images/dm/contact.jpg)
+![home](./assets/images/dm/contact1.jpg)
 
 
 
