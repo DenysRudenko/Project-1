@@ -88,9 +88,9 @@ What i did?
 [Wireframe](https://wireframe.cc/) was used to create wireframes of the website. This was very useful as you can quickly make an example of your website.
 
 <a name="introduction-page"></a>
-### Introduction Page
+## Introduction Page
 
-####Desktop
+### Desktop
 
 * Home page
 
