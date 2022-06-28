@@ -174,31 +174,67 @@ What i did?
 * Social links
 * Menu button
 
-#### Social links  
+#### Social links:  
+Social media links (for Facebook, Instagram and WhatsUp) are placed at the top and the bottom of the each page in the header and footer. All the links will open in a new tab. In mobile version the top social links is disabled by using:
+* display: none;
 
-Placed at the top in the center of the page,i decided to place them there becouse i was trying to make the similar design as [here](https://dribbble.com/shots/11360956--84-2-Shots-for-Practice/attachments/2973440?mode=media).
+I decided to place them there becouse i was trying to make the similar design as [here](https://dribbble.com/shots/11360956--84-2-Shots-for-Practice/attachments/2973440?mode=media).
 
-#### Navigation bar 
+Back to home link provided to each page at the top left corner. This will allow the user to access to the home page in one click.
+
+
+
+#### Navigation bar: 
 Placed at the top right corner in menu button. I read a lot of material to develop it, i took from one of examples [here](https://freefrontend.com/css-hamburger-menu-icons/). The style of code was changed and edit for my purposes. There was a lot of work making that without a JavaScript.
 
-#### Drop down menu bar 
+#### Languages:
+Website contain 2 different languages:
+* English
+* Ukrainian
+
+#### Drop down menu bar: 
 Slided from the left side and contains :
 * Home
 * Gallery
 * About us
 * Contact us
 
-#### Logo
+#### Logo:
 Tattoo Studio is placed on the top left corner and has an active selector which changes the color.
 
-#### Background color
+#### Background color:
 Background color of header is trasparent.
 
-#### Social media
-Social media links (for Facebook, Instagram and WhatsUp) are placed at the top and the bottom of the each page in the header and footer. All the links will open in a new tab. In mobile version the top social links is disabled by using:
-* display: none;
+### Home page:
+- Atirst image is included just below the menubar to highlight that this website provides a tattoo sketches. 
+- The page contains 3 blocks of infromation : "Tatto Studio in Kyiv", "Garanties", "Feedback".
+ Each block contain information about it and image/video provided.
+- An external link "SCHEDULE AN APPOINMENT" provided where interested users can apply for a tattoo. The link has a hover effect.
 
-Back to home link provided to each page at the top left corner. This will allow the user to access to the home page in one click.
+
+### Gallery page:
+- Gallery image just bellow the menubar.
+- Page contain one block with a 8 photos of tattoo.
+
+### About us page:
+- Gallery image just bellow the menubar.
+- Page contaion two blocks of information.
+- 1st block of information about the artist "Alexandr Simakov"
+- 2nd block of information about "Instruments and materials"
+
+### Contact us page:
+- Page contain one block with 2 differend sections.
+- 1st section is a form hwere user can send his infromation and apply for a session.
+- 2nd section is a location information with map, adress and contact details.
+- If you want to send an email you could press a link with an email.See the photo bellow:
+
+![email](./assets/images/dm/10.png)
+
+* Unfortunately the map details i hide at mobile version due not enough time to style to finish the project till 30th of June.
+
+- The form use the method="POST" action="https://formdump.codeinstitute.net/"
+
+![form](./assets/images/dm/11.png)
 
 
 
