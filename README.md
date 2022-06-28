@@ -19,7 +19,10 @@ This website is designed for a [tattoo studio](https://denysrudenko.github.io/Pr
     - [Site skeleton (wireframes)](#wireframes)
      - [Introduction page](#introduction-page)
      - [Result](#result)
+ 
  [2. Features](#features)
+
+ [3.Technologies used](#technologies-used)
   
 <a name="interested"></a>
 # 1. Who will be interested in visiting the website?
@@ -224,18 +227,44 @@ Background color of header is trasparent.
 
 ### Contact us page:
 - Page contain one block with 2 differend sections.
-- 1st section is a form hwere user can send his infromation and apply for a session.
+- 1st section is a form where user can send his infromation and apply for a session.
 - 2nd section is a location information with map, adress and contact details.
 - If you want to send an email you could press a link with an email.See the photo bellow:
 
 ![email](./assets/images/dm/10.png)
+![email](./assets/images/dm/12.png)
 
-* Unfortunately the map details i hide at mobile version due not enough time to style to finish the project till 30th of June.
+* Unfortunately the map details i hide at mobile version due not enough of time to style to finish the project till 30th of June.
 
 - The form use the method="POST" action="https://formdump.codeinstitute.net/"
 
 ![form](./assets/images/dm/11.png)
 
+ <a name="technologies-used"></a>
+# 3. Technologies Used
+  [Go to the top](#table-of-contents)
+
+* [HTML5](https://en.wikipedia.org/wiki/HTML5) (markup language) was used for structuring and presenting content of the website.
+
+* [CSS3](https://en.wikipedia.org/wiki/CSS) (Cascading Style Sheets) was used to provide the style to the content written in a HTML.
+
+* [Wireframe](https://wireframe.cc/) was used to create wireframes of the website.
+
+* [Google Fonts](https://fonts.google.com/) was used to import font-family 'Krona One' into style,css file and which was used throughout the pages of the website.
+
+* [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html) was used to resize some of the site images and style them.
+
+* [Font Awesome](https://fontawesome.com/) was used to improt icons to the sites.
+
+* [Chrome](https://www.google.com/intl/en_uk/chrome/) was used to debug and test the source code using HTML5 as well as to test site responsiveness.
+
+* [Github](https://github.com/) was used to create the repository and to store the cproject's code after pushed from Git.
+
+* [Visual Studio](https://code.visualstudio.com/) was used as code generator.
+
+* Extensiions for visual studio, see the photo below:
+
+![extensions](./assets/images/dm/13.png)
 
 
 
