@@ -4,7 +4,7 @@ This website is designed for a tattoo studio.
 
 **Kingdom of Shadows** is a tattoo studio located in Ukraine, Kyiv. The owner of the studio "Alexandr Simakov" asked to make a beta website for him.
 
-So i decided to have a try. The live website can be found [here](https://denysrudenko.github.io/Project-1.-Tatto-studio./)
+So i decided to have a try. The live website can be found [here](https://denysrudenko.github.io/Project-1.-Tatto-studio./).
 
 ## Gitpod Reminders
 
