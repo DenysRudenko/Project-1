@@ -130,6 +130,19 @@ What i did?
 
 ![home](./assets/images/dm/home.jpg)
 
+* Gallery page
+
+![home](./assets/images/dm/gallery.jpg)
+
+* About page
+
+![home](./assets/images/dm/about.jpg)
+
+* Contact page
+
+![home](./assets/images/dm/contact.jpg)
+
+
 
 
 
