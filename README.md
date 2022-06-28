@@ -100,11 +100,29 @@ What i did?
 
 * Gallery page
 
-![home](./assets/images/dm/5.png)
+![gallery](./assets/images/dm/5.png)
 
 * Contact page
 
-![home](./assets/images/dm/6.png)
+![contact](./assets/images/dm/6.png)
+
+### Mobile
+
+* Home page
+
+![home](./assets/images/dm/7.png)
+
+* Gallery page
+
+![contact](./assets/images/dm/9.png)
+
+* Contact page
+
+![contact](./assets/images/dm/8.png)
+
+
+
+
 
 
 
