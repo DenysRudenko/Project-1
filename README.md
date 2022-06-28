@@ -19,6 +19,7 @@ This website is designed for a [tattoo studio](https://denysrudenko.github.io/Pr
     - [Site skeleton (wireframes)](#wireframes)
      - [Introduction page](#introduction-page)
      - [Result](#result)
+ [2. Features](#features)
   
 <a name="interested"></a>
 # 1. Who will be interested in visiting the website?
@@ -92,6 +93,7 @@ What i did?
 ## Introduction Page
 
 ### Desktop
+   [Go to the top](#table-of-contents)
 
 * Home page
 
@@ -108,6 +110,7 @@ What i did?
 ![contact](./assets/images/dm/6.png)
 
 ### Mobile
+   [Go to the top](#table-of-contents)
 
 * Home page
 
@@ -160,6 +163,11 @@ What i did?
 
 ![home](./assets/images/dm/contact1.jpg)
 
+
+  <a name="features"></a>
+# 2. Features
+  [Go to the top](#table-of-contents)
+ ### All 4 pages:
 
 
 
