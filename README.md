@@ -169,22 +169,32 @@ What i did?
   [Go to the top](#table-of-contents)
  ### All 4 pages:
 
-Header contains:
+#### Header contains:
 * Logo
 * Social links
 * Menu button
 
-Social links is placed at the top in the center of the page,i decided to place them there becouse i was trying to make the similar design as [here](https://dribbble.com/shots/11360956--84-2-Shots-for-Practice/attachments/2973440?mode=media).
-Navigation bar is placed at the top right corner in menu button. I read a lot of material to develop it, i took from one of examples [here](https://freefrontend.com/css-hamburger-menu-icons/). The style of code was changed and edit for my purposes. There was a lot of work making that without a JavaScript.
+#### Social links  
 
-Drop down menu bar is slided from the left side and contains :
+Placed at the top in the center of the page,i decided to place them there becouse i was trying to make the similar design as [here](https://dribbble.com/shots/11360956--84-2-Shots-for-Practice/attachments/2973440?mode=media).
+
+#### Navigation bar 
+Placed at the top right corner in menu button. I read a lot of material to develop it, i took from one of examples [here](https://freefrontend.com/css-hamburger-menu-icons/). The style of code was changed and edit for my purposes. There was a lot of work making that without a JavaScript.
+
+#### Drop down menu bar 
+Slided from the left side and contains :
 * Home
 * Gallery
 * About us
 * Contact us
 
-Logo of Tattoo Studio is placed on the top left corner and has an active selector which changes the color.
+#### Logo
+Tattoo Studio is placed on the top left corner and has an active selector which changes the color.
+
+#### Background color
 Background color of header is trasparent.
+
+#### Social media
 Social media links (for Facebook, Instagram and WhatsUp) are placed at the top and the bottom of the each page in the header and footer. All the links will open in a new tab. In mobile version the top social links is disabled by using:
 * display: none;
 
