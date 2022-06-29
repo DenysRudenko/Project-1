@@ -243,6 +243,16 @@ Background color of header is trasparent.
 
 ![form](./assets/images/dm/11.png)
 
+I made "WhatsUp" link at the top snd bottom page to help user the fastest way to contact the artist of the studio. If user click on that link, he immediately will redirect to "WhatsUp" chat.
+
+See the pictures below:
+
+![whatsup](./assets/images/dm/20.png)
+
+"Open xdg-open" this means that google chrome asking you a permission
+to open an application on Ubuntu/Debian operation systems.
+
+
  <a name="technologies-used"></a>
 # 3. Technologies Used
   [Go to the top](#table-of-contents)
@@ -263,7 +273,7 @@ Background color of header is trasparent.
 
 * [Github](https://github.com/) was used to create the repository and to store the cproject's code after pushed from Git.
 
-* [Visual Studio](https://code.visualstudio.com/) was used as code generator.
+* [Visual Studio](https://code.visualstudio.com/) was used as code generator. I installed ssh for a comfortable work.
 
 * Extensiions for visual studio, see the photo below:
 
