@@ -3,7 +3,7 @@
 This website is designed for a [tattoo studio](https://denysrudenko.github.io/Project-1.-Tatto-studio./).
 
 ## Introduction
-**Kingdom of Shadows** is a tattoo studio, that provides variety of services for the clients. The owner is a talented experienced artist, who now wants to attract clients via Internet. As we know, having a website is not a key to successful growth, but excellent presentation is. So for me as for developer, it is extremely important to define the philosophy of the business and present the work of the studio.
+**Kingdom of Shadows** is a tattoo studio that provides a variety of services for the clients. The owner is a talented experienced artist, who now wants to attract clients via the Internet. As we know, having a website is not a key to successful growth, but excellent presentation is. So for me as a developer, it is extremely important to define the philosophy of the business and present the work of the studio.
 
 ![website preview](assets/images/dm/1.png)
 
@@ -41,7 +41,7 @@ This website is designed for a [tattoo studio](https://denysrudenko.github.io/Pr
 ## 1.1 User experience 
    [Go to the top](#table-of-contents)
 
-In modern world respectful business must have an on-line page to grow. This especially applies to the tattoo salons, because it is a number one wish for the clients to assure themselves that their expectations meet the reality. 
+In the modern world, respectful businesses must have an on-line page to grow. This especially applies to the tattoo salons, because it is a number one wish for the clients to assure themselves that their expectations meet the reality. 
 
 
 <a name="user-goals"></a>
@@ -54,7 +54,7 @@ My main goal during the project was creation of the strong image of the studio, 
 ## 1.3 User Expectations
    [Go to the top](#table-of-contents)
 
-The website contents the information about studio, background of the artist and detailed description of the styles he uses, services available there, feedback from the clients, contact info. Here is what user is able to do within the website:
+The website contains information about the studio, background of the artist and detailed description of the styles he uses, services available there, feedback from the clients, contact info. Here is what user is able to do within the website:
 * all pages are easily accessible 
 * the interface is easily navigated 
 * responsive design for all screen/device sizes
@@ -67,7 +67,7 @@ The website contents the information about studio, background of the artist and 
 ![Home page](./assets/images/dm/2.png)
 
 
-The choice of the color scheme for the website promoting a business like this plays a huge role in creating the image of the studio in user's eyes. In this design I used Webkit to adjust colors.I style the scroll bar and made a lot of hover effects.
+The choice of the color scheme for the website promoting a business like this plays a huge role in creating the image of the studio in the user's eyes. In this design I used Webkit to adjust colors.I styled the scroll bar and made a lot of hover effects.
 
 Example:
 * background: -webkit-linear-gradient(#bba14f, #f7ef8a, #d2ac47, #edc967);
@@ -79,12 +79,12 @@ Example:
 ## 1.5 Audio-Video-Images
   [Go to the top](#table-of-contents)
 
-Informative and qualitative content for business is one of the best ways to present the work it does. Examples of the work for tattoo saloons are the bridge between klients and business, since many people decide to attend a studio based on the already made designs. My mission was to provide visitors with high resolution pictures, that can be seen and analyzed by the client making a decision. It was also important to display as many different pictures of tattoos as possible, to show divers designs, that artist can do.
+Informative and qualitative content for business is one of the best ways to present the work it does. Examples of the work for tattoo saloons are the bridge between clients and business, since many people decide to attend a studio based on the already made designs. My mission was to provide visitors with high resolution pictures that can be seen and analyzed by the client making a decision. It was also important to display as many different pictures of tattoos as possible, to show diverse designs that artists can do.
 
 What did i do?
 * Each background image was edited with width and height.
 * Each background image was styled with a different style.
-* The text of background images were moved for the user accessibility.
+* The text of background images were moved for the user's accessibility.
 
 ![1920px](./assets/images/background/about-us.png)
 
@@ -124,7 +124,6 @@ What did i do?
 ![home](./assets/images/dm/7.png)
 
 * Gallery page
-
 ![contact](./assets/images/dm/9.png)
 
 * Contact page
@@ -182,17 +181,17 @@ What did i do?
 * Menu button
 
 #### Social links:  
-Social media links (for Facebook, Instagram and WhatsUp) are placed at the top and the bottom of the each page in the header and footer. All the links open in a new tab. In mobile version the top social links are disabled by using:
+Social media links (for Facebook, Instagram and WhatsUp) are placed at the top and the bottom of each page in the header and footer. All the links open in a new tab. In mobile version the top social links are disabled by using:
 * display: none;
 
-I decided to place them there, because i was trying to make the similar design as [here](https://dribbble.com/shots/11360956--84-2-Shots-for-Practice/attachments/2973440?mode=media).
+I decided to place them there, because I was trying to make a similar design as [here](https://dribbble.com/shots/11360956--84-2-Shots-for-Practice/attachments/2973440?mode=media).
 
-Back to home link provided at each page at the top left corner. This allows user to access the home page in one click.
+Back to home link provided at each page at the top left corner. This allows the user to access the home page in one click.
 
 
 
 #### Navigation bar: 
-Placed at the top right corner in menu button. I read a lot of material to develop it, took from one of examples [here](https://freefrontend.com/css-hamburger-menu-icons/). The style of code was changed and edited for my purposes. There was a lot of work making that without JavaScript.
+Placed at the top right corner in the menu button. I read a lot of material to develop it, taken from one of the examples [here](https://freefrontend.com/css-hamburger-menu-icons/). The style of code was changed and edited for my purposes. There was a lot of work making that without JavaScript.
 
 #### Languages:
 Website contain 2 different languages:
@@ -210,51 +209,48 @@ Slided from the left side and contains :
 Tattoo Studio is placed on the top left corner and has an active selector which changes the color.
 
 #### Background color:
-Background color of header is trasparent.
-
+Background color of the header is transparent.
 ### Home page:
-- Atirst image is included right below the menubar to highlight that this website provides a tattoo sketches. 
-- The page contains 3 blocks of infromation : "Tatto Studio in Kyiv", "Garanties", "Feedback".
+- Artist image is included right below the menu bar to highlight that this website provides a tattoo sketches. 
+- The page contains 3 blocks of information : "Tattoo Studio in Kyiv", "Garanties", "Feedback".
  Each block contains information about it and image/video provided.
-- An external link "SCHEDULE AN APPOINMENT" provided, so interested users can apply for a tattoo session. The link has a hover effect.
+- An external link "SCHEDULE AN APPOINTMENT" provided, so interested users can apply for a tattoo session. The link has a hover effect.
 
 
 ### Gallery page:
-- Gallery image right bellow the menubar.
-- Page contains one block with 8 photos of tattooes.
+- Gallery image right below the menu bar.
+- Page contains one block with 8 photos of tattoos.
 
 ### About us page:
-- Gallery image just bellow the menubar.
+- Gallery image just below the menu bar.
 - Page contains two blocks of information.
 - 1st block of information is about the artist "Alexandr Simakov"
 - 2nd block of information is about "Instruments and materials"
 
 ### Contact us page:
-- Page contains one block with 2 differend sections.
-- 1st section is a form, where user can add his infromation about them and apply for a session.
-- 2nd section is a location information with map, adress and contact details.
+- Page contains one block with 2 different sections.
+- 1st section is a form, where the user can add his information about them and apply for a session.
+- 2nd section is location information with map, address and contact details.
 - If user wants to send an email they can press a link with an email.Look at the photo bellow:
 
 ![email](./assets/images/dm/10.png)
 ![email](./assets/images/dm/12.png)
 
-* Unfortunately the map details i hide at mobile version due to lack of time to style and finish the project till 30th of June.
+* Unfortunately the map details I hide at mobile version due to lack of time to style and finish the project till 30th of June.
 
 - The form use the method="POST" action="https://formdump.codeinstitute.net/"
 
 ![form](./assets/images/dm/11.png)
 
-I made "WhatsUp" link at the top and at the bottom page to help user to contact the artist of the studio the fastest way. If user clicks on that link, they immediately are redirect to "WhatsUp" chat.
+I made a "WhatsUp" link at the top and at the bottom page to help users to contact the artist of the studio the fastest way. If a user clicks on that link, they immediately are redirect to "WhatsUp" chat.
 
 Look at the pictures below:
 
-![whatsup](./assets/images/dm/20.png)
+![whatsapp](./assets/images/dm/20.png)
 
 "Open xdg-open" this means that google chrome asking you a permission
-to open an application on Ubuntu/Debian operation systems.
-
-
- <a name="technologies-used"></a>
+to open an application on Ubuntu/Debian operating systems.
+<a name="technologies-used"></a>
 # 3. Technologies Used
   [Go to the top](#table-of-contents)
 
@@ -268,15 +264,15 @@ to open an application on Ubuntu/Debian operation systems.
 
 * [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html) was used to resize some of the site images and style them.
 
-* [Font Awesome](https://fontawesome.com/) was used to improt icons to the sites.
+* [Font Awesome](https://fontawesome.com/) was used to import icons to the sites.
 
 * [Chrome](https://www.google.com/intl/en_uk/chrome/) was used to debug and test the source code using HTML5 as well as to test site responsiveness.
 
-* [Github](https://github.com/) was used to create the repository and to store the cproject's code after pushed from Git.
+* [Github](https://github.com/) was used to create the repository and to store the project's code after pushed from Git.
 
-* [Visual Studio](https://code.visualstudio.com/) was used as code generator. I installed ssh for a comfortable work.
+* [Visual Studio](https://code.visualstudio.com/) was used as code generator. I installed ssh for comfortable work.
 
-* Extensiions for visual studio, see the photo below:
+* Extensions for visual studio, see the photo below:
 
 ![extensions](./assets/images/dm/13.png)
 
@@ -302,13 +298,13 @@ See the pictures below:
 
 ![html](./assets/images/dm/14.png)
 ![html](./assets/images/dm/15.png)
-The HTML checker notified me an error in my index.html page at the start of the project, in short words i remember that for "section" i should use h1 - h6 headings, only "div" elements could be fine without headings. Also i had a problem in my contact-us.html with a form. I forgot to make "for" atribute in label for "subject" input. 
+The HTML checker notified me an error in my index.html page at the start of the project, in short words i remember that for "section" i should use h1 - h6 headings, only "div" elements could be fine without headings. Also i had a problem in my contact-us.html with a form. I forgot to make "for" attribute in label for "subject" input. 
 
-[W3C CSS Validation](https://jigsaw.w3.org/css-validator/) was used to check for any error within my css file. I have no errors but i have warnings becouse of "-Webkit". Like it says in the documentary over [here](https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar)
+[W3C CSS Validation](https://jigsaw.w3.org/css-validator/) was used to check for any error within my css file. I have no errors but I have warnings because of "-Webkit ''. Like it says in the documentary over [here](https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar)
 
 * ::-webkit-scrollbar is only available in Blink- and WebKit-based browsers (e.g., Chrome, Edge, Opera, Safari, all browsers on iOS, and others). A standardized method of styling scrollbars is available with "scrollbar-color" and "scrollbar-width".
 
-which i have done all over the project with the hover effects for text, footer logos and scrollbar. I decided to keep it, but i understand this is the rule for the future development. I noticed that issue at the end of the project work, so i keep that in mind.
+which i have done all over the project with the hover effects for text, footer logos and scrollbar. I decided to keep it, but I understand this is the rule for future development. I noticed that issue at the end of the project work, so i keep that in mind.
 
 See the pictures below:
 
@@ -319,7 +315,7 @@ See the pictures below:
 
 ## 4.2 Tests
 
-My problem of the whole project that all images were a big size. For that reason whole pages take a while to load. All depends from the user internet speed. So the percentage of performance is highly variable.
+My problem with the whole project was that all images were a big size. For that reason whole pages take a while to load. All depends on the user's internet speed. So the percentage of performance is highly variable.
 To solve that problem read the "Future".
 
 See the picture below:
@@ -327,23 +323,23 @@ See the picture below:
 ![test](./assets/images/dm/21.png)
 
 # 5. Bugs
-  [Go to the top](#table-of-contents)
+ [Go to the top](#table-of-contents)
 
   ### Solved bugs
 - The main problem for me was making the website responsive. I took a big jump ahead for developing this website. So it took a lot of time actually.
-- I also discovered they using percentage for images, there is a way better to make it responsive. For the whole project I was making the property in pixels, and only at the end i changed to percentage. 
-- At the start of the project i deployed the slideshow at "Feedback" section, but when i tried to make it responsive whole slideshow broke down.
-The width was messured in pixels, using a maths formula I was changing the size of the screen to make it responsive, but when i tried to change it to percentage whole slideshow broke down.
+- I also discovered they use percentage for images, there is a better way to make it responsive. For the whole project I was making the property in pixels, and only at the end I changed to percentage. 
+- At the start of the project I deployed the slideshow in the "Feedback" section, but when I tried to make it responsive the whole slideshow broke down.
+The width was measured in pixels, using a math formula I was changing the size of the screen to make it responsive, but when I tried to change it to percentage the whole slideshow broke down.
 
 See the gif bellow:
 
 ![test](./assets/images/dm/22.gif)
 
-I couldn't reach the fix, so i got rid of it. Im sure, for the working slideshow I needed to add overflow: hidden
+I couldn't fix it, so I got rid of it. I'm sure, for the working slideshow I needed to add overflow: hidden
 
-- The other bugs i had, were puplishing ukrainian languages html files on github, there was a problem with a path. The solution for it was editind the path as "../../example/example.png" 
+- The other bugs I had were publishing Ukrainian language html files on github. There was a problem with a path. The solution for it was editing the path as "../../example/example.png" 
 
-- Im sure there is a lot of other bugs in my css code that i couldn`t see, because of mine experience of web developing. Im sure that whole code of css could be written in a shorter version.
+- I'm sure there are a lot of other bugs in my css code that I couldn't see, because of my experience of web developing. I'm sure that the whole code of css could be written in a shorter version.
 
  <a name="git"></a>
 # 6. GitHub
@@ -355,17 +351,17 @@ The web was deployed to GitHub pages:
 
   <a name="info"></a>
 # 7. Information
-  [Go to the top](#table-of-contents)
+ [Go to the top](#table-of-contents)
 ### Code
 * The main image above the nav bar came from the Love Running project
-* The code for menu button came from https://freefrontend.com/css-hamburger-menu-icons/ and was edited for my purposes.
+* The code for the menu button came from https://freefrontend.com/css-hamburger-menu-icons/ and was edited for my purposes.
 * The design idea for the main image and navigation bar was taken from https://dribbble.com/shots/11360956--84-2-Shots-for-Practice/attachments/2973440?mode=media
 * The design idea for pages was taken from https://www.goodkindtattoo.com/
 * The icons in the footer and contact page came from [Font Awesome](https://fontawesome.com/)
 * For README.md file, reference of https://github.com/dhakal79/Portfolio-project-MS1/edit/master/README.md and from my teacher in Kyiv Politehnic Insitute https://github.com/GasperPaul/university-tools-installer 
 * Photos are made by Igor Nykytyn, talanted photographer https://instagram.com/igor_nik_photo?igshid=YmMyMTA2M2Y=
 * Help with a photo designs Anton Skokivsky https://instagram.com/a.skokivskyi?igshid=YmMyMTA2M2Y=
-* A big thank you to mentor Marcel Mulders for tips and for a support with project i made.
+* A big thank you to mentor Marcel Mulders for tips and for supporting a project I made.
 
 
 <a name="#future"></a>
@@ -379,16 +375,19 @@ The web was deployed to GitHub pages:
 * The problem with a big picture weight could be fixed by loading animation at the start with a help of JavaScript.
 
 ### Chat
-* The great idea is to add live chat menu box.
+* The great idea is to add a live chat menu box.
 
 ### Animations
-* There could be created a nice animations with photos.
+* There could be nice animations with photos.
 
 ### Parcing
 * Should be created a file with information about parcing for other developers.
 
 ### Font style
-* There could be more improvements with a font and also added font for ukrainian language.
+* There could be more improvements with a font and also added font for Ukrainian language.
+
+
+
   
 
 
