@@ -2018,6 +2018,61 @@ footer>p {
     }
 
     /* About us */
+
+    #middle_artist {
+        height: 1250px;
+    }
+
+    .artist_position>h2 {
+        font-size: 90%;
+    }
+
+    .artist_position {
+        right: 50px;
+        width: 73%;
+    }
+
+    .artist_about span {
+        font-size: 15px;
+    }
+
+    .artist_text {
+        font-size: 13px;
+    }
+
+    .alex_loc {
+        left: 105px;
+        top: 1010px;
+    }
+
+    .materials_position {
+        left: 60px;
+    }
+
+    .materials_position>h2 {
+        font-size: 90%;
+    }
+
+    #middle_materials {
+        height: 1150px;
+    }
+
+    .materials_about {
+        font-size: 13px;
+    }
+
+    .materials_about span {
+        font-size: 15px;
+    }
+
+    .phone_loc {
+        position: absolute;
+        top: 172.75em;
+    }
+
+    .materials_text {
+        left: 25px;
+    }
 }
 
 @media screen and (max-width: 368px) {
