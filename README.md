@@ -285,6 +285,28 @@ Also checked with a mobile phone Huawei p40 lite.
 
 ### 4.1.3 W3C Validator Tools
 
+[W3C Markup](https://validator.w3.org/#validate_by_input+with_options)  I used to check for any errors with my HTML pages.
+
+See the pictures below:
+
+![html](./assets/images/dm/14.png)
+![html](./assets/images/dm/15.png)
+The HTML checker notified me an error in my index.html page at the start of the project, in short words i remember that for "section" i should use h1 - h6 headings, only "div" elements could be fine without headings. Also i had a problem in my contact-us.html with a form. I forgot to make "for" atribute in label for "subject" input. 
+
+[W3C CSS Validation](https://jigsaw.w3.org/css-validator/) was used to check for any error within my css file. I have no errors but i have warnings becouse of "-Webkit". Like it says in the documentary over [here](https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-scrollbar)
+
+* ::-webkit-scrollbar is only available in Blink- and WebKit-based browsers (e.g., Chrome, Edge, Opera, Safari, all browsers on iOS, and others). A standardized method of styling scrollbars is available with "scrollbar-color" and "scrollbar-width".
+
+which i have done all over the project with the hover effects for text, footer logos and scrollbar. I decided to keep it, but i understand this is the bad rule for the future development. I noticed that issue on the end of the project, so i keep that in mind.
+
+See the pictures below:
+
+![css](./assets/images/dm/16.png)
+![css](./assets/images/dm/17.png)
+![css](./assets/images/dm/18.png)
+![css](./assets/images/dm/19.png)
+
+
 
 
 
