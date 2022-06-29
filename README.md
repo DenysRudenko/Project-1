@@ -124,6 +124,7 @@ What did i do?
 ![home](./assets/images/dm/7.png)
 
 * Gallery page
+
 ![contact](./assets/images/dm/9.png)
 
 * Contact page
