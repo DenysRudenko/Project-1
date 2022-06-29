@@ -1,6 +1,6 @@
 # Welcome to Kingdom Of Shadows!
 
-This website is designed for a [tattoo studio](https://denysrudenko.github.io/Project-1.-Tatto-studio./).
+This website is designed for a [tattoo studio](https://denysrudenko.github.io/Project-1/).
 
 ## Introduction
 **Kingdom of Shadows** is a tattoo studio that provides a variety of services for the clients. The owner is a talented experienced artist, who now wants to attract clients via the Internet. As we know, having a website is not a key to successful growth, but excellent presentation is. So for me as a developer, it is extremely important to define the philosophy of the business and present the work of the studio.
