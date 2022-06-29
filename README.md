@@ -377,6 +377,7 @@ The site was deployed to GitHub pages:
 
 <a name="#future"></a>
 # 8. Future
+[Go to the top](#table-of-contents)
 
 ### Web Security
 * To deploy this website in live there is needed to make some security analysis.
