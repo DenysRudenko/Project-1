@@ -26,6 +26,14 @@ This website is designed for a [tattoo studio](https://denysrudenko.github.io/Pr
 
  [4.Testing](#testing)
 
+ [5.Bugs](#bugs)
+
+ [6. GitHub](#git)
+
+ [7. Information](#acknowledgement)
+
+ [8. Future](#future)
+
   
 <a name="interested"></a>
 # 1. Who will be interested in visiting the website?
@@ -243,7 +251,7 @@ Background color of header is trasparent.
 
 ![form](./assets/images/dm/11.png)
 
-I made "WhatsUp" link at the top snd bottom page to help user the fastest way to contact the artist of the studio. If user click on that link, he immediately will redirect to "WhatsUp" chat.
+I made "WhatsUp" link at the top and at the bottom page to help user the fastest way to contact the artist of the studio. If user click on that link, he immediately will redirect to "WhatsUp" chat.
 
 See the pictures below:
 
@@ -315,6 +323,79 @@ See the pictures below:
 ![css](./assets/images/dm/17.png)
 ![css](./assets/images/dm/18.png)
 ![css](./assets/images/dm/19.png)
+
+## 4.2 Tests
+
+My problem of the whole project that all images were a big size. For that reason whole pages take a while to load. All depends from the user internet speed. So the percentage of performance is highly variable.
+To solve that problem read the "Future".
+
+See the picture below:
+
+![test](./assets/images/dm/21.png)
+
+# 5. Bugs
+  [Go to the top](#table-of-contents)
+
+  ### Solved bugs
+- The main problem for me it was making the website responsive. I take a big jump ahead for developing this website. So it took a lot of time actually.
+- I also discovered if you using percentage for images, there is a way better to make it responsive, for the whole project i was making the property in pixels, and only at the end i changed to percentage. 
+- For the start of the project i deployed the slideshow at "Feedback" section, but when i tried to make it responsive whole slideshow broke up.
+The width was using pixels, with a maths formula i was changing the size of the screen to make it responsive, but when i tried to change it to percentage whole slideshow broke up.
+
+See the gif bellow:
+
+![test](./assets/images/dm/22.gif)
+
+I couldn't reach the fix, so i get rid of it. Im sure, for the working slideshow i was needed to add overflow: hidden
+
+- The other bugs i had, that when i was puplishing ukrainian languages html files on github, there was a problem with a path. The solution for it was editind the path as "../../example/example.png" 
+
+- Im sure there is a lot of other bugs in my css code that i couldn`t see yet becouse of mine experience of web developing. Im sure in one thing that whole code of css could be written in a shorter version.
+
+ <a name="git"></a>
+# 6. GitHub
+  [Go to the top](#table-of-contents)
+
+The site was deployed to GitHub pages:
+- Sharing of mine profile here - https://github.com/DenysRudenko
+- The live link can be found here - (https://denysrudenko.github.io/Project-1.-Tatto-studio./)
+
+  <a name="info"></a>
+# 7. Information
+  [Go to the top](#table-of-contents)
+### Code
+* The main image above the nav bar came from the Love Running project
+* The code for menu button came from https://freefrontend.com/css-hamburger-menu-icons/ and was edited for my purposes.
+* The design idea for the main image and navigation bar was taken from https://dribbble.com/shots/11360956--84-2-Shots-for-Practice/attachments/2973440?mode=media
+* The design idea for pages was taken from https://www.goodkindtattoo.com/
+* The icons in the footer and contact page came from [Font Awesome](https://fontawesome.com/)
+* For README.md file, reference of https://github.com/dhakal79/Portfolio-project-MS1/edit/master/README.md and from my teacher in Kyiv Politehnic Insitute https://github.com/GasperPaul/university-tools-installer 
+* Whole pictures are maded by Igor Nykytyn, talanted photographer https://instagram.com/igor_nik_photo?igshid=YmMyMTA2M2Y=
+* Help with a photo designs Anton Skokivsky https://instagram.com/a.skokivskyi?igshid=YmMyMTA2M2Y=
+* A big thanks to mentor Marcel Mulders for tips and for a support with idea i made.
+
+
+<a name="#future"></a>
+# 8. Future
+
+### Web Security
+* To deploy this website in live there is needed to make some security analysis.
+
+### Loading
+* The problem with a big picture weight could be fixed by loading animation at the start with a help of JavaScript.
+
+### Chat
+* The great idea is to add live chat menu box.
+
+### Animations
+* There could be created a nicely animations with a photos.
+
+### Parcing
+* Should be created a file with information about parcing for other developers.
+  
+
+
+
 
 
 
