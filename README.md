@@ -393,6 +393,9 @@ The site was deployed to GitHub pages:
 
 ### Parcing
 * Should be created a file with information about parcing for other developers.
+
+### Font style
+* There could be more improvements with a font and also added font for ukrainian language.
   
 
 
