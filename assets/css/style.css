@@ -2087,12 +2087,57 @@ footer>p {
         width: 70%;
     }
 
+    .video_about {
+        font-size: 10px;
+        padding-top: 10px;
+    }
+
+    .video_about span {
+        font-size: 12px;
+    }
+
+    .feedback_text p,
+    .feedback_text2 p {
+        font-size: 10px;
+        padding: 70px 10px 30px 10px;
+    }
+
+    .feedback_text p>span,
+    .feedback_text2 p>span {
+        font-size: 12px;
+    }
+
     #middle_studio {
         height: 1100px;
     }
 
     #middle_video {
         height: 850px;
+    }
+
+    .studio_about span {
+        font-size: 12px;
+    }
+
+    .studio_about {
+        font-size: 10px;
+        max-height: 700px;
+    }
+
+    .artist_about span {
+        font-size: 12px;
+    }
+
+    .artist_text {
+        font-size: 10px;
+    }
+
+    .materials_about {
+        font-size: 10px;
+    }
+
+    .materials_about span {
+        font-size: 12px;
     }
 
     #feedback {
