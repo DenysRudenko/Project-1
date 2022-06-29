@@ -10,29 +10,22 @@ This website is designed for a [tattoo studio](https://denysrudenko.github.io/Pr
 ## Table of Contents 
 
 # Table of Contents
- [1. Who will be interested in visiting the website?](#interested)
+- [1. Who will be interested in visiting the website?](#interested)
     - [User experience:](#user-exp)
     - [User Goals:](#user-goals)
     - [User Expectations:](#user-expectations)
     -	[Colour scheme and font](#color-scheme)
     - [Audio/video controls](#audio-video)
     - [Site skeleton (wireframes)](#wireframes)
-     - [Introduction page](#introduction-page)
-     - [Result](#result)
- 
- [2. Features](#features)
-
- [3.Technologies used](#technologies-used)
-
- [4.Testing](#testing)
-
- [5.Bugs](#bugs)
-
- [6. GitHub](#git)
-
- [7. Information](#acknowledgement)
-
- [8. Future](#future)
+    - [Introduction page](#introduction-page)
+    - [Result](#result)
+- [2. Features](#features)
+- [3.Technologies used](#technologies-used)
+- [4.Testing](#testing)
+- [5.Bugs](#bugs)
+- [6. GitHub](#git)
+- [7. Information](#acknowledgement)
+- [8. Future](#future)
 
   
 <a name="interested"></a>
