@@ -1,7 +1,47 @@
+
+/* Basic template */
+/* Connect modern normalize npm install modern-normalize */
+
+/* main.css */
+@import 'modern-normalize/modern-normalize.css';
+
+/* Your custom CSS */
 * {
     margin: 0;
     padding: 0;
     border: none;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+figure, 
+p, 
+ol, 
+ul {
+    margin: 0;
+}
+
+ol[role="list"],
+ul[role="list"] {
+    list-style: none;
+    padding-inline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+img {
+    display: block;
+    max-inline-size: 100%;
 }
 
 a {
@@ -13,6 +53,9 @@ ol,
 li {
     list-style: none;
 }
+
+
+/* Finish */
 
 body {
     font-family: 'Krona One', sans-serif;
